@@ -1,0 +1,42 @@
+# Betriebssystem- und Office-Hilfsdateien
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+
+# Quarto- und R-Arbeitsdateien
+.quarto/
+*_cache/
+*_files/
+*.quarto_ipynb
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# LaTeX-Hilfsdateien, Quellen und fertige PDFs bleiben versioniert
+*.aux
+*.log
+*.nav
+*.snm
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.vrb
+
+# Lokale Vorschauen, Arbeitsdateien und Editor-/Synchronisationseinstellungen
+tmp/
+.codex-*/
+.vscode/
+.sync-exclude.lst
+inspect.json
+
+# Vorläufig nicht veröffentlichte Materialien
+/Skript/
+/1-Naturwissenschaft/
