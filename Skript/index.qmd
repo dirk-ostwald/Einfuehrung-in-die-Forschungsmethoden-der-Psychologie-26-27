@@ -1,0 +1,3 @@
+# {.unnumbered .unlisted}
+
+<!-- Technischer Einstiegspunkt für Quarto; kein zusätzlicher Skripttext. -->

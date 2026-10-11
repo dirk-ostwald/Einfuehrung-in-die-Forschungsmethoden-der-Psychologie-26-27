@@ -36,7 +36,3 @@ tmp/
 .vscode/
 .sync-exclude.lst
 inspect.json
-
-# Vorläufig nicht veröffentlichte Materialien
-/Skript/
-/1-Naturwissenschaft/

@@ -1,0 +1,21 @@
+Wissen und Weltverständnis – Bildnachweise
+
+Cassirer: historisches Porträt, übernommen aus der Bilddarstellung zu
+https://www.zeit.de/hamburg/2020-04/ernst-cassirer-philosoph-universitaet-hamburg-antisemitismus
+Bild-URL: https://img.zeit.de/hamburg/2020-04/ernst-cassirer/standard__1120x840
+Das Foto ist kein KI-generiertes Porträt. Rechte verbleiben beim Rechteinhaber.
+
+Die sechs weiteren pfm-1-einstieg-*.png sind mit dem integrierten
+image_gen-Werkzeug erzeugte illustrative Collagen, keine historischen Aufnahmen.
+Gemeinsame Gestaltung: gedeckte neutrale Grautöne, fotografische Collage,
+weiche Übergänge, keine eingebetteten Texte oder zusätzlichen Trennlinien.
+Motive: Rodins Denker/Sesamstraße/Kant/Magdeburg, Demeter und Persephone,
+barmherziger Samariter, Landschaft und Gemälde, Apfel und Mond,
+integrierte Darstellung der vier Formen des Weltverständnisses.
+
+Kant: Logik (1800), Akademie-Ausgabe IX, S. 25
+https://korpora.org/kant/aa09/025.html
+Sesamstraße: kurzer Titelliedausschnitt, Text Volker Ludwig
+Cassirer, Ernst (1944). An Essay on Man: An Introduction to a Philosophy
+of Human Culture. Yale University Press. Kapitel VII, IX und XI.
+Die Cassirer-Texte sind Zusammenfassungen, keine direkten Zitate.

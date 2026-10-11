@@ -13,9 +13,12 @@ außer einem PDF-Betrachter erforderlich.
 | Thema | Folien | Quellen und Abbildungen |
 | --- | --- | --- |
 | 0 · Formalia | [PDF](0-Formalia/0-Formalia.pdf) | [Ordner](0-Formalia/) |
+| 1 · Naturwissenschaft | [PDF](1-Naturwissenschaft/1-Naturwissenschaft.pdf) | [Ordner](1-Naturwissenschaft/) |
+| Begleitendes Skript | [PDF](Skript/_book/Skript-Einfuehrung-in-die-Forschungsmethoden-der-Psychologie.pdf) | [Ordner](Skript/) |
 
-Der Ordner `1-Naturwissenschaft` und das begleitende Skript werden derzeit lokal
-bearbeitet und sind vorläufig von der Versionsverwaltung ausgeschlossen.
+Die Ordner `1-Naturwissenschaft` und `Skript` sind in die Versionsverwaltung
+einbezogen. Hinweise zu den extern eingebundenen Skriptkapiteln und zum Rendern
+stehen in der [Skript-Dokumentation](Skript/README.md).
 
 Weitere Informationen zur Veranstaltung stehen auf der
 [Kurswebseite](https://www.ipsy.ovgu.de/Institut/Abteilungen+des+Institutes/Methodenlehre/Lehre/Wintersemester+2027/Einf%C3%BChrung+in+die+Forschungsmethoden+der+Psychologie.html).
@@ -32,8 +35,8 @@ quarto render 0-Formalia.qmd --to beamer
 ```
 
 Anschließend die erzeugte PDF prüfen. Die `.qmd`-Quelldateien, Header,
-Bibliografien, Abbildungen und fertigen Folien-PDFs werden gemeinsam versioniert;
-temporäre Render-Dateien bleiben außerhalb von Git.
+Bibliografien, Abbildungen und fertigen Folien-PDFs werden gemeinsam versioniert.
+Temporäre Render-Dateien bleiben außerhalb von Git.
 
 ## Korrekturen und Beiträge
 

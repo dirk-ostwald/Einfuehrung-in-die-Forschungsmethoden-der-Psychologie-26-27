@@ -1,0 +1,54 @@
+project:
+  type: book
+  output-dir: _book
+
+lang: de
+csl: https://www.zotero.org/styles/apa
+bibliography: _src/Referenzen.bib
+filters:
+  - _buch.lua
+  - quarto
+
+fig-pos: H
+
+book:
+  title: "Einführung in die Forschungsmethoden der Psychologie"
+  subtitle: "Vorlesungsskript"
+  author:
+    - name: Dirk Ostwald
+      affiliation: Otto-von-Guericke-Universität Magdeburg
+  date: today
+  output-file: Skript-Einfuehrung-in-die-Forschungsmethoden-der-Psychologie
+  chapters:
+    - index.qmd
+    - _src/_part_0/001-Naturwissenschaft.qmd
+    # - _src/_part_0/002-Psychologische-Forschung.qmd
+    # - _src/_part_0/003-Psychologische-Daten.qmd
+    # - _src/_part_0/004-Messen-und-Quantifizieren.qmd
+    # - _src/_part_0/005-Studiendesign.qmd
+    # - _src/_part_0/006-Klinische-Forschung.qmd
+    # - _src/_part_0/007-Qualitative-Forschung.qmd
+    # - _src/_part_0/008-Ethik.qmd
+    - _src/Referenzen.qmd
+
+execute:
+  warning: false
+  message: false
+
+format:
+  pdf:
+    pdf-engine: xelatex
+    documentclass: scrreprt
+    papersize: a4
+    toc-depth: 2
+    # Verhindert das Aufräumen der über _src verknüpften Quelldateien.
+    keep-tex: true
+    code-line-numbers: false
+    code-overflow: wrap
+    latex-tinytex: false
+    latex-clean: false
+    latex-output-dir: _latex/build
+    include-in-header:
+      - _src/_texheader.tex
+      - _titelseite.tex
+      - _layout.tex

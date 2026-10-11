@@ -23,13 +23,12 @@ Die PowerPoint-Dateien in den Abbildungsordnern dienen als bearbeitbare Quellen.
 Bei Änderungen an solchen Grafiken auch die eingebundene PDF-Ausgabe aktualisieren.
 Neue Fremdinhalte benötigen nachvollziehbare Quellen- und Lizenzangaben.
 
-## Vorläufig ausgeschlossene Materialien
+## Skript und Naturwissenschaft
 
-Die Ordner `Skript` und `1-Naturwissenschaft` bleiben für den Moment lokal und
-werden durch die `.gitignore` im Repository-Hauptverzeichnis ausgeschlossen.
-Bei einer späteren Aufnahme zuerst die jeweilige Ignore-Regel entfernen und die
-zu veröffentlichenden Dateien prüfen. Externe Quellenverknüpfungen und lokale
-LaTeX-Caches müssen weiterhin außerhalb der Versionsverwaltung bleiben.
+Die Ordner `Skript` und `1-Naturwissenschaft` werden einschließlich ihrer
+Quellen, Abbildungen, Konfiguration und fertigen PDFs versioniert.
+Externe Quellenverknüpfungen und lokale LaTeX-Caches bleiben durch die
+bestehenden Ignore-Regeln außerhalb der Versionsverwaltung.
 
 Die Kapitel des Skripts stammen aus einem separaten PDWP-Quellprojekt.
 Inhaltliche Änderungen dieser Kapitel gehören dorthin. Die lokale Einbindung

@@ -1,0 +1,1055 @@
+---
+fontsize: 8pt
+format:
+    beamer:
+        include-in-header: "1-Header.tex"
+bibliography: 1-Referenzen.bib
+---
+
+#  {.plain}
+\center
+\vspace{3mm}
+```{r, echo = FALSE, out.width = "20%"}
+knitr::include_graphics("1-Abbildungen/pfm-1-otto.png")
+```
+
+\vspace{4mm}
+
+\Large
+\resizebox{\linewidth}{!}{Einführung in die Forschungsmethoden der Psychologie}
+\vspace{1mm}
+
+\normalsize
+BSc Philosophie-Neurowissenschaften-Kognition WiSe 2026/27
+
+BSc Psychologie WiSe 2026/27
+
+\large
+\vspace{6mm}
+Prof. Dr. Dirk Ostwald
+
+#  {.plain}
+
+\vfill
+\center
+\huge
+\textcolor{black}{(1) Naturwissenschaft}
+\vfill
+
+#
+\vfill
+\setstretch{3}
+\Large
+
+Wissen und Weltverständnis
+
+Naturwissenschaft
+
+Theorien, Hypothesen, Experimente, Variablen
+
+Selbstkontrollfragen
+\vfill
+
+
+#
+\vfill
+\setstretch{3}
+\Large
+
+**Wissen und Weltverständnis**
+
+Naturwissenschaft
+
+Theorien, Hypothesen, Experimente, Variablen
+
+Selbstkontrollfragen
+\vfill
+
+# Wissen und Weltverständnis
+
+```{=latex}
+\vspace*{7mm}
+\vfill
+\centering
+\scalebox{0.9}{%
+\begin{tikzpicture}[x=1mm,y=1mm]
+\begin{scope}
+\clip[rounded corners=3mm] (0,0) rectangle (100,75);
+\node[inner sep=0pt] at (50,37.5) {\includegraphics[height=75mm]{1-Abbildungen/pfm-1-einstieg-fragen-43.pdf}};
+\end{scope}
+\node[anchor=north west,inner sep=0pt,align=left] at (4,71) {\fontsize{13}{16}\selectfont\RaggedRight Der Mensch stellt Fragen};
+\node[anchor=north west,inner sep=0pt,align=left] at (12,28) {\fontsize{9}{12.15}\selectfont\RaggedRight Wer, wie, was?\\[1mm]Wieso, weshalb, warum?};
+\node[anchor=north west,inner sep=0pt,align=left] at (55,33) {\fontsize{9}{12.15}\selectfont\RaggedRight Was kann ich wissen?\\[1mm]Was soll ich tun?\\[1mm]Was darf ich hoffen?\\[1mm]Was ist der Mensch?};
+\node[anchor=north west,inner sep=0pt,align=left] at (12,17) {\fontsize{5.4}{7.29}\selectfont\RaggedRight Sesamstraße};
+\node[anchor=north west,inner sep=0pt,align=left] at (12,11) {\fontsize{9}{12.15}\selectfont\RaggedRight Der, der immer fragt};
+\node[anchor=north west,inner sep=0pt,align=left] at (12,5) {\fontsize{5.4}{7.29}\selectfont\RaggedRight Checker Tobi};
+\node[anchor=north west,inner sep=0pt,align=left] at (55,10) {\fontsize{5.4}{7.290000000000001}\selectfont\RaggedRight Immanuel Kant (1724–1804)};
+\end{tikzpicture}%
+}
+\par\vfill
+```
+
+# Wissen und Weltverständnis
+
+```{=latex}
+\vspace*{7mm}
+\vfill
+\centering
+\scalebox{0.9}{%
+\begin{tikzpicture}[x=1mm,y=1mm]
+\begin{scope}
+\clip[rounded corners=3mm] (0,0) rectangle (100,75);
+\node[inner sep=0pt] at (50,37.5) {\includegraphics[height=75mm]{1-Abbildungen/pfm-1-einstieg-cassirer-43.pdf}};
+\end{scope}
+\node[anchor=north west,inner sep=0pt,align=left] at (4,71) {\fontsize{13}{16}\selectfont\RaggedRight Ernst Cassirer (1944) \textit{An Essay on Man}};
+\node[anchor=north west,inner sep=0pt,align=left,text width=58mm] at (40,56) {\fontsize{7.3}{9.5}\selectfont\RaggedRight In \textit{An Essay on Man} (1944) beschreibt Ernst Cassirer den Menschen als
+ein Wesen, das seine Welt durch Symbole erschließt.
+
+\medskip
+Mythos, Religion, Kunst und Wissenschaft geben Erfahrungen jeweils eine eigene
+Ordnung.
+
+\medskip
+Sie sind nicht bloß Abbilder einer bereits verstandenen Wirklichkeit, sondern
+ermöglichen unterschiedliche Formen des Weltverständnisses.};
+\node[anchor=south east,inner sep=0pt,align=left] at (96,4) {\fontsize{5.5}{7.425000000000001}\selectfont\RaggedRight Vgl. Cassirer (1944), \textit{An Essay on Man}};
+\end{tikzpicture}%
+}
+\par\vfill
+```
+
+# Wissen und Weltverständnis
+
+```{=latex}
+\vspace*{7mm}
+\vfill
+\centering
+\scalebox{0.9}{%
+\begin{tikzpicture}[x=1mm,y=1mm]
+\begin{scope}
+\clip[rounded corners=3mm] (0,0) rectangle (100,75);
+\node[inner sep=0pt] at (50,37.5) {\includegraphics[height=75mm]{1-Abbildungen/pfm-1-einstieg-mythos-43.pdf}};
+\end{scope}
+\node[anchor=north west,inner sep=0pt,align=left] at (4,71) {\fontsize{13}{16}\selectfont\RaggedRight Mythos};
+\node[anchor=north west,inner sep=0pt,align=left] at (39,53) {\fontsize{8}{12}\selectfont\RaggedRight \mbox{\textbullet\hspace{1.5mm}Demeter und Persephone}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Unfruchtbare Erde, neues Wachstum}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Natur und Schicksal sind verbunden}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Ereignisse zeigen wirksame Mächte}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Verlust und Wiederkehr stiften Sinn}};
+\node[anchor=south east,inner sep=0pt,align=left] at (96,4) {\fontsize{5.5}{7.425000000000001}\selectfont\RaggedRight Vgl. Cassirer (1944), Kap. VII};
+\end{tikzpicture}%
+}
+\par\vfill
+```
+
+# Wissen und Weltverständnis
+
+```{=latex}
+\vspace*{7mm}
+\vfill
+\centering
+\scalebox{0.9}{%
+\begin{tikzpicture}[x=1mm,y=1mm]
+\begin{scope}
+\clip[rounded corners=3mm] (0,0) rectangle (100,75);
+\node[inner sep=0pt] at (50,37.5) {\includegraphics[height=75mm]{1-Abbildungen/pfm-1-einstieg-religion-43.pdf}};
+\end{scope}
+\node[anchor=north west,inner sep=0pt,align=left] at (4,71) {\fontsize{13}{16}\selectfont\RaggedRight Religion};
+\node[anchor=north west,inner sep=0pt,align=left] at (39,53) {\fontsize{8}{12}\selectfont\RaggedRight \mbox{\textbullet\hspace{1.5mm}Der barmherzige Samariter (Lukas 10,25–37)}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Mythos und Religion sind verbunden}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Das Göttliche orientiert das Leben}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Verantwortung über Gruppen hinaus}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Mitgefühl begründet tätige Hilfe}};
+\node[anchor=south east,inner sep=0pt,align=left] at (96,4) {\fontsize{5.5}{7.425000000000001}\selectfont\RaggedRight Vgl. Cassirer (1944), Kap. VII};
+\end{tikzpicture}%
+}
+\par\vfill
+```
+
+# Wissen und Weltverständnis
+
+```{=latex}
+\vspace*{7mm}
+\vfill
+\centering
+\scalebox{0.9}{%
+\begin{tikzpicture}[x=1mm,y=1mm]
+\begin{scope}
+\clip[rounded corners=3mm] (0,0) rectangle (100,75);
+\node[inner sep=0pt] at (50,37.5) {\includegraphics[height=75mm]{1-Abbildungen/pfm-1-einstieg-kunst-43.pdf}};
+\end{scope}
+\node[anchor=north west,inner sep=0pt,align=left] at (4,71) {\fontsize{13}{16}\selectfont\RaggedRight Kunst};
+\node[anchor=north west,inner sep=0pt,align=left] at (39,53) {\fontsize{8}{12}\selectfont\RaggedRight \mbox{\textbullet\hspace{1.5mm}Kunst erschließt sinnliche Formen}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Gestaltung verändert unser Erleben}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Geschärfte Wahrnehmung eröffnet Neues}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Kunst macht neue Beziehungen sichtbar}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Kunst erweitert das sinnliche Verständnis}};
+\node[anchor=south east,inner sep=0pt,align=left] at (96,4) {\fontsize{5.5}{7.425000000000001}\selectfont\RaggedRight Vgl. Cassirer (1944), Kap. IX};
+\end{tikzpicture}%
+}
+\par\vfill
+```
+
+# Wissen und Weltverständnis
+
+```{=latex}
+\vspace*{7mm}
+\vfill
+\centering
+\scalebox{0.9}{%
+\begin{tikzpicture}[x=1mm,y=1mm]
+\begin{scope}
+\clip[rounded corners=3mm] (0,0) rectangle (100,75);
+\node[inner sep=0pt] at (50,37.5) {\includegraphics[height=75mm]{1-Abbildungen/pfm-1-einstieg-wissenschaft-43.pdf}};
+\end{scope}
+\node[anchor=north west,inner sep=0pt,align=left] at (4,71) {\fontsize{13}{16}\selectfont\RaggedRight Wissenschaft};
+\node[anchor=north west,inner sep=0pt,align=left] at (39,53) {\fontsize{8}{12}\selectfont\RaggedRight \mbox{\textbullet\hspace{1.5mm}Abstrakte Begriffe ordnen Erfahrungen}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Regularitäten verbinden Phänomene}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Modelle ermöglichen Vorhersagen}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Messungen erfassen Beziehungen}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Symbole erweitern die Anschauung}};
+\node[anchor=south east,inner sep=0pt,align=left] at (96,4) {\fontsize{5.5}{7.425000000000001}\selectfont\RaggedRight Vgl. Cassirer (1944), Kap. XI};
+\end{tikzpicture}%
+}
+\par\vfill
+```
+
+# Wissen und Weltverständnis
+
+```{=latex}
+\vspace*{7mm}
+\vfill
+\centering
+\scalebox{0.9}{%
+\begin{tikzpicture}[x=1mm,y=1mm]
+\begin{scope}
+\clip[rounded corners=3mm] (0,0) rectangle (100,75);
+\node[inner sep=0pt] at (50,37.5) {\includegraphics[height=75mm]{1-Abbildungen/pfm-1-einstieg-formen-43.pdf}};
+\end{scope}
+\node[anchor=north west,inner sep=0pt,align=left] at (4,71) {\fontsize{13}{16}\selectfont\RaggedRight Formen des Weltverständnisses nach Cassirer};
+\node[anchor=north west,inner sep=0pt,align=left] at (39,53) {\fontsize{8}{12}\selectfont\RaggedRight \mbox{\textbullet\hspace{1.5mm}Verständnisformen bestehen nebeneinander}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Aufschluß unterschiedlicher Zusammenhänge}\\[3mm]
+\mbox{\textbullet\hspace{1.5mm}Wissenschaft als Perspektive}};
+\node[anchor=north west,inner sep=0pt,align=left] at (39,31) {\fontsize{7.2}{11}\selectfont
+\begin{tabular}{@{}l@{\hspace{1mm}}c@{\hspace{1mm}}l@{}}
+Mythos & $\Rightarrow$ & Erlebter Zusammenhang \\[1mm]
+Religion & $\Rightarrow$ & Ethische Orientierung \\[1mm]
+Kunst & $\Rightarrow$ & Sinnliches Verständnis \\[1mm]
+Wissenschaft & $\Rightarrow$ & Regelhafte Erklärung
+\end{tabular}};
+\node[anchor=south east,inner sep=0pt,align=left] at (96,4) {\fontsize{5.5}{7.425000000000001}\selectfont\RaggedRight Vgl. Cassirer (1944), \textit{An Essay on Man}};
+\end{tikzpicture}%
+}
+\par\vfill
+```
+
+#
+\vfill
+\setstretch{3}
+\Large
+
+Wissen und Weltverständnis
+
+**Naturwissenschaft**
+
+Theorien, Hypothesen, Experimente, Variablen
+
+Selbstkontrollfragen
+\vfill
+
+
+# Naturwissenschaft
+
+```{r, echo = FALSE, out.width = "90%"}
+knitr::include_graphics("1-Abbildungen/pfm-1-wissenschaftsdefinition.pdf")
+```
+
+# Naturwissenschaft
+
+\setstretch{3}
+Naturwissenschaften $\vert$ Science
+
+* Empirische Erforschung der Natur mit dem Ziel, Regelmäßigkeiten zu erkennen
+* Quantitatives Beobachten, messen, analysieren des Verhaltens der Natur
+* Grundlage zur Nutzbarmachung der Natur in den Ingeniuersdisziplinen
+* Physik, Chemie, Biologie, Medizin, **Psychologie**, Geologie, etc.
+
+# Naturwissenschaft
+\setstretch{3}
+Geisteswissenschaften $\vert$ Humanities
+
+* Analytische Erforschung menschlicher Kultur
+* Qualitative Sinnsuche, informelle Kritik, Spekulation
+* Philosophie, Theologie, Geschichtswissenschaft, Literaturwissenschaft, etc.
+* Naturwissenschaftliche Theoriebildung
+
+
+# Naturwissenschaft
+\setstretch{3}
+Formalwissenschaften $\vert$ Formal Sciences
+
+* Analyse formaler Systeme
+* Sprachwerkzeuge
+* Mathematik, Logik, theoretische Informatik, Rechtswissenschaft, etc.
+* Naturwissenschaftliche Theoriebildung
+
+
+# Naturwissenschaft
+\setstretch{1.8}
+\vspace{2mm}
+Zentrale Prinzipien des naturwissenschaftlichen Erkenntnisgewinns
+\vspace{2mm}
+
+Prinzip der Rationalität 
+
+* Erkenntnisgewinn in der Theorie nach formalen Regeln
+* Intersubjektiv, aber modellbasiert
+
+\vspace{2mm}
+
+Prinzip der Empirie
+
+* Erkenntnisgewinn durch Beobachtung und Experiment
+* Intersubjektiv, aber unstrukturiert
+
+\vspace{2mm}
+\center
+\small
+"Theorie ohne Erfahrung ist lediglich intellektuelles Spiel, Erfahrung ohne Theorie ist blind."
+
+\flushright{\textit{nach Immanuel Kant (vielleicht)}}
+
+
+# Naturwissenschaft
+Naturphilosophie (Natural Philosophy) 
+\small
+\vspace{1mm}
+
+\setstretch{1.8}
+Studium der Natur und des physikalischen Universums 
+
+Dominierender Ansatz zum Verständnis der Welt von der Antike bis in die frühe Neuzeit
+
+Untersuchungen in Physik, Astronomie, Biologie, Chemie, Geologie, Psychologie  
+
+Beispielhafte Vertreter  
+
+\footnotesize
+\begin{tabular}{ll}
+Platon (ca. 428–347 v. Chr.) & Betonung abstrakter Formen und mathematische Erklärungen. \\
+Aristoteles (384–322 v. Chr.) & Klassifizierung der Natur, Theorien von Bewegung und Kausalität. \\
+Avicenna (980–1037) & Bewahrung und Erweiterung der griechischen Naturphilosophie. \\
+Hildegard von Bingen (1098–1179) & Naturbeobachtung, Heilkunst und Theologie. \\
+Thomas von Aquin (ca. 1225–1274) & Scholastische Verbindung mit christlicher Theologie. \\
+\end{tabular}
+
+\small
+\vspace{1mm}
+Methoden der Vernunft, der Beobachtung, der metaphysischen Spekulation und der Theologie   
+  
+
+# Naturwissenschaft
+\setstretch{1.6}
+Wissenschaftliche Revolution (Scientific Revolution)  
+
+\footnotesize
+Übergang von der aristotelisch-scholastischen Naturphilosophie zur Naturwissenschaft 
+mit mathematischer Modellbildung und experimenteller Überprüfung im 16. und 17. Jahrhundert
+
+\tiny
+
+| Jahr | Autor           | Werk                                  | Bedeutung                                                           |
+|---|------------------|------------------------------------------|---------------------------------------------------------------------|
+| 1543 | Kopernikus      | *De revolutionibus orbium coelestium* | Einführung des heliozentrischen Weltbildes. |
+| 1609 | Johannes Kepler | *Astronomia Nova*                     | Erste beiden Keplerschen Gesetze der Planetenbewegung. |
+| 1610 | Galileo Galilei | *Sidereus Nuncius* (*Sternenbote*)    | Teleskopische Entdeckungen: Jupitermonde, Mondoberfläche. |
+| 1620 | Francis Bacon   | *Novum Organum*                       | Grundlegung der induktiven Methode und Empirie. |
+| 1628 | William Harvey  | *De Motu Cordis*                      | Nachweis des Blutkreislaufs. |
+| 1632 | Galileo Galilei | *Dialogo sopra*                       | Verteidigung des Heliozentrismus; Vergleich der Weltsysteme. |
+| 1637 | René Descartes  | *Discours de la méthode*              | Rationalismus, Einführung der analytischen Geometrie. |
+| 1644 | René Descartes  | *Principia Philosophiae*              | Mechanistische Gesamterklärung der Natur. |
+| 1661 | Robert Boyle    | *The Sceptical Chymist*               | Begründung der modernen Chemie, Materie aus Teilchen. |
+| 1672 | Otto Gericke    | *Experimenta Nova de Vacuo Spatio*    | Luftpumpen-Experimente, Magdeburger Halbkugeln. |
+| 1687 | Isaac Newton    | *Principia Mathematica*               | Formulierung der Bewegungsgesetze und Gravitation. |
+
+
+# Naturwissenschaft
+
+\vspace{2mm}
+Otto von Guericke als Vertreter der wissenschaftlichen Revolution
+
+\vfill
+```{r, echo = FALSE, out.width = "75%", fig.align="center"}
+knitr::include_graphics("1-Abbildungen/pfm-1-wissenschaft-guericke.pdf")
+```
+\vfill
+
+# Naturwissenschaft
+
+```{r, echo = FALSE, out.width = "95%"}
+knitr::include_graphics("1-Abbildungen/pfm-1-aufklärung.pdf")
+```
+
+# Naturwissenschaft
+\vspace{2mm}
+\begingroup
+\setstretch{1.15}
+Entwicklung der modernen Naturwissenschaft
+
+\footnotesize
+Verankerung der Naturwissenschaften im akademischen System durch Lehrstühle, Laboratorien und Fachdisziplinen; Einheit von Forschung und Lehre (vgl. [Humboldt, 1810](https://germanhistorydocs.org/de/das-heilige-roemische-reich-1648-1815/ghdi%3Adocument-3642))
+
+\tiny
+
+| Jahr | Autor/in | Zentrales Werk | Bedeutung |
+|------|----------------------|--------------------------------------|------------------------------|
+| 1781 | Immanuel Kant | *Kritik der reinen Vernunft* | Grenzen der Erkenntnis |
+| 1789 | Antoine Lavoisier | *Traité élémentaire de chimie* | Sauerstofftheorie |
+| 1824 | Sadi Carnot | *Puissance motrice du feu* | Wärmekraftmaschinen |
+| 1847 | von Helmholtz | *Über die Erhaltung der Kraft* | Energieerhaltung |
+| 1859 | Charles Darwin | *On the Origin of Species* | Natürliche Selektion |
+| 1866 | Gregor Mendel | *Versuche über Pflanzenhybriden* | Vererbungsregeln |
+| 1873 | Maxwell | *Electricity and Magnetism* | Elektromagnetismus |
+| 1883 | Wilhelm Wundt | *Logik: Methodenlehre* | Wissenschaftliche Methoden |
+| 1900 | Sigmund Freud | *Die Traumdeutung* | Theorie des Unbewussten |
+| 1903 | Marie Curie | *Substances radioactives* | Radioaktivität |
+| 1905 | Albert Einstein | *Elektrodynamik bewegter Körper* | Spezielle Relativität |
+| 1913 | Niels Bohr | *Constitution of Atoms* | Quanten-Atommodell |
+| 1925 | Werner Heisenberg | *Quantentheoretische Umdeutung* | Matrizenmechanik |
+| 1936 | Alan Turing | *On Computable Numbers* | Berechenbarkeit |
+| 1938 | Skinner | *The Behavior of Organisms* | Operantes Konditionieren |
+| 1939 | Hahn, Meitner | *Nachweis* / *Disintegration of Uranium* | Kernspaltung |
+| 1945 | John von Neumann | *First Draft EDVAC* | Rechnerarchitektur |
+| 1948 | Claude Shannon | *A Mathematical Theory of Communication* | Informationstheorie |
+| 1952 | Hodgkin, Huxley | *Quantitative Description of Membrane Current* | Modell des Aktionspotentials |
+| 1953 | Franklin, Watson, Crick | *Molecular Structure of Nucleic Acids* | DNA-Doppelhelix |
+| 1956 | George Miller | *The Magical Number Seven* | Kognitive Informationsverarbeitung |
+| 1958 | Frank Rosenblatt | *The Perceptron* | Künstliche neuronale Netze |
+| 1962 | Thomas Kuhn | *Scientific Revolutions* | Paradigmenwechsel |
+
+
+\endgroup
+
+# Naturwissenschaft
+\vfill
+```{r, echo = FALSE, out.width = "95%", fig.align="center"}
+knitr::include_graphics("1-Abbildungen/pfm-1-wissenschaft-prozess.pdf")
+```
+\vfill
+
+```{r, echo = F, eval = F}
+pdf(                                                                    
+file   = file.path("1-Abbildungen/pfm-1-freierfall.pdf"),                            
+width  = 5,                                                                 
+height = 5)  
+
+# Definitionen
+res       = 1e1                                                                  # domain resolution
+tmax      = 5                                                                    # maximal timepoint
+x         = cbind(matrix(seq(0,tmax, len = res), nrow = res))                    # time
+fx        = cbind(matrix(x^2) ,                                                  # f(t) := t^2 + \varepsilon
+                  matrix(x^2))                                                   # f(t) := t^2
+
+# Visualisierung
+par(
+family     = "sans",
+bty        = "l",
+lwd        = 1,
+las        = 1,
+mgp        = c(2,1,0),
+cex        = 1.3)
+matplot(
+x,
+fx,
+type       = c("p", "l"),
+pch        = c(16,1) ,
+lty        = 1,
+lwd        = c(3,1),
+col        = c("black", "black"),
+ylab       = "Position [cm] ",
+xlab       = "Zeit [s]")
+grid()
+dev.off()                                                                
+```
+
+
+```{r, echo = F, eval = F}
+pdf(                                                                    
+file   = file.path("1-Abbildungen/pfm-1-freierfall-noise.pdf"),                            
+width  = 5,                                                                 
+height = 5)  
+
+# Definitionen
+res       = 1e1                                                                 # domain resolution
+tmax      = 5                                                                   # time maximum
+x         = cbind(matrix(seq(0,tmax, len = res), nrow = res))                   # time
+fx        = cbind(matrix(x^2) +  2*rnorm(res) ,                                 # f(t)  := t^2 + \varepsilon
+                  matrix(x^2))                                                  # f(t) := t^2
+
+# Visualisierung
+par(
+family     = "sans",
+bty        = "l",
+lwd        = 1,
+las        = 1,
+mgp        = c(2,1,0),
+cex        = 1.3)
+matplot(
+x,
+fx,
+type       = c("p", "l"),
+pch        = c(16,1) ,
+lty        = 1,
+lwd        = c(3,1),
+col        = c("black", "black"),
+ylab       = "Position [cm] ",
+xlab       = "Zeit [s]")
+grid()
+dev.off()
+```
+
+# Naturwissenschaft
+
+\setstretch{1.8}
+
+Induktion
+
+* Schlussfolgerung vom Speziellen auf das Allgemeine
+* Schlussfolgerung von empirischen Daten auf wissenschaftliche Theorien
+* Produktion neuer Theorien
+
+Deduktion
+
+* Schlussfolgerung vom Allgemeinen auf das Spezielle
+* Schlussfolgerung von Theorien auf vorhergesagte Daten
+* Evaluation bestehender Theorien
+
+\footnotesize
+\flushright
+vgl. @doering2023, Kapitel 2
+
+# Naturwissenschaft
+
+```{r, echo = FALSE, out.width = "90%", fig.align="center"}
+knitr::include_graphics("1-Abbildungen/pfm-1-wissenschaft-prozess-freierfall.pdf")
+```
+
+# Naturwissenschaft
+\vspace{2mm}
+Beispiel für die Deduktion von Vorhersagen aus einer Theorie
+
+\footnotesize
+Die Newtonsche Gravitationstheorie für den freien Fall im Vakuum in Erdnähe besagt
+\begin{equation}
+F = m\ddot{x}(t),
+\end{equation}
+wobei $F := -mg$ die Gravitationskraft, $m$ die Masse des fallenden Objektes,
+$x : \mathbb{R} \to \mathbb{R}, t \mapsto x(t)$
+die Ortsfunktion des Objektes und $g := 9.81\, \mbox{m}/\mbox{s}^{2}$ die Erdbeschleunigung 
+bezeichnen sollen. Will man basierend auf dieser Theorie die Position des Objektes $x(t)$
+zu einem Zeitpunkt $t$ bestimmen, so überlegt man sich zunächst, dass die Theorie offenbar
+besagt, dass
+\begin{equation}
+F = m\ddot{x}(t)\Leftrightarrow -mg = m\ddot{x}(t) \Leftrightarrow -g = \ddot{x}(t).
+\end{equation}
+Eine Ortsfunktion, die die obige Differentialgleichung zweiter Ordnung erfüllt ist beispielsweise
+\begin{equation}
+x : \mathbb{R} \to \mathbb{R}, 
+t \mapsto x(t) := x_0 + v_0t - \frac{1}{2}gt^2 \mbox{ mit } x_0,v_0 \in \mathbb{R},
+\end{equation}
+da zweimaliges Ableiten von $x$ nach $t$ ergibt, dass 
+\begin{equation}
+\ddot{x}(t) 
+= \frac{d^2}{dt^2}x(t) 
+= \frac{d}{dt}\left(\frac{d}{dt}\left(x_0+v_0t- \frac{1}{2}gt^2\right)\right)
+= \frac{d}{dt}\left(v_0 - gt \right)
+= -g.
+\end{equation} 
+Hat man also zum Beispiel für $t = 0\, \mbox{s}$ den Fall einer Anfangsposition $x_0 = 10\, 
+\mbox{m}$ und einer Anfangsgeschwindigkeit $v_0 := 0\,\mbox{m}/\mbox{s}$ vorliegen, 
+so ergibt sich aus der Theorie der klassischen Mechanik die Vorhersage 
+\begin{equation}
+x(1) = 10 + 0 \cdot 1 - \frac{1}{2}  \cdot 9.81 \cdot 1^2 = 10 - 4.90 = 5.10
+\end{equation}
+für die Höhe des Objektes in $\mbox{m}$ nach $t = 1\,\mbox{s}$ freier Fall. Man 
+beachte allerdings, dass die klassische Mechanik zum Beispiel die Periheldrehung, also 
+die langsame Drehung der Bahnellipse eines Himmelskörpers um das Zentralgestirn, einer 
+Planetenumlaufbahn nicht vollständig erklärt. Eine bessere Theorie in dieser
+Hinsicht ist die Gravitationssstheorie der allgemeinen Relativitätstheorie.
+
+# Naturwissenschaft
+
+```{r, echo = FALSE, out.width = "90%", fig.align="center", fig.align="center"}
+knitr::include_graphics("1-Abbildungen/pfm-1-wissenschaft-prozess-freierfall-noise.pdf")
+```
+
+# Naturwissenschaft 
+\setstretch{2.4}
+Weitere Aspekte des naturwissenschaftlichen Ideals
+\small
+
+* Formulierung empirisch untersuchbarer und gut begründeter Forschungsfragen
+* Berücksichtigung des Forschungsstands und ausdrücklicher Theoriebezug
+* Systematische Erhebung, Aufbereitung und Analyse von empirischen Daten
+* Vorgehen gemäß etablierter Methoden unter Einhaltung von Qualitätskriterien
+* Vorgehen gemäß Prinzipien der Forschungsethik und der akademischen Ethik
+* Ausführliche Dokumentation zwecks Nachvollziehbarkeit und Nachprüfbarkeit
+* Ausgewogene Ergebnisinterpretation mit Hinweisen auf Widersprüche und Grenzen
+* Wissenschaftliche Veröffentlichung nach fachkundiger Begutachtung 
+
+\footnotesize
+\flushright
+Nach @doering2023, Kapitel 1
+
+
+#
+\vfill
+\setstretch{3}
+\Large
+
+Wissen und Weltverständnis
+
+Naturwissenschaft
+
+**Theorien, Hypothesen, Experimente, Variablen**
+
+Selbstkontrollfragen
+
+
+# Theorien, Hypothesen, Experimente, Variablen
+\vspace{2mm}
+Definitionsversuche für den Begriff der Theorie
+
+\footnotesize
+Eine Theorie ist ein Erklärungsmodell, das auf bestimmten Prinzipien basiert.
+Eine Theorie stellt Einzelbeobachtungen in einen Zusammenhang. Mithilfe einer
+Theorie können Verhaltensweisen oder Ereignisse in ein System gebracht und 
+Vorhersagen abgeleitet werden.
+
+\flushright
+@myers2010
+\vspace{2mm}
+
+\justifying
+Eine Theorie ist eine geordnete Menge von Konzepten oder Aussagen, die ein
+Phänomen oder eine Gruppe von Phänomenen erklärt.
+
+\flushright
+@gerrig2020
+\vspace{2mm}
+
+\justifying
+Eine Theorie ist ein System von Definitionen, Annahmen und Schlussfolgerungen,
+welches einen Ordnungs- und Erklärungsversuch für ein oder mehrere Phänomene 
+darstellt.
+
+\flushright
+@reiss2012
+\vspace{2mm}
+
+\justifying
+Eine Theorie ist ein System von intuitiv-verbal und mathematisch formulierten 
+Definitionen und Theoremen, die elementare Grundannahmen zu Erklärung eines 
+Phänomens der Wirklichkeit darstellen, das die Herleitung quantitativer, 
+informatisch-implementierbarer Vorhersagen über beobachtbare Daten des Phänomens 
+ermöglicht.
+
+\flushright
+Ostwald (2025)
+
+
+# Theorien, Hypothesen, Experimente, Variablen
+Theorien und Modelle
+\small
+\setstretch{1.8}
+
+In der Psychologie wird manchmal zwischen den Begriffen "Theorie" und "Modell" unterschieden
+
+* "Nicht selten sind Modelle Bestandteile von Theorien"
+* "Die allgemeinen theoretischen Prinzipien sind dann durch ein Modell repräsentiert"
+* "Man unterscheidet mathematische Modelle, Computermodelle, ..."
+
+\flushright
+(vgl. @reiss2012, S. 34 - 37)
+
+\justifying
+In der Psychologie fehlt oft Erfahrung mit mathematisch-informatischer Modellbildung.
+
+$\Rightarrow$ Eine Unterscheidung zwischen Theorie und Modell ist nicht zielführend.
+
+$\Rightarrow$ Mathematische und informatische Modellbildung ist für naturwissenschaftliche Arbeit notwendig.
+
+\large
+\center
+Modell = Theorie und Theorie = Modell
+
+
+# Theorien, Hypothesen, Experimente, Variablen
+\vspace{2mm}
+Definitionsversuche für den Begriff der Hypothese
+\footnotesize
+
+Eine Hypothese ist eine überprüfbare Vorhersage, die aus einer Theorie abgeleitet wird.
+
+\flushright
+@myers2010
+\vspace{2mm}
+
+\justifying
+Eine Hypothese ist eine vorläufige und prüfbare Erklärung der Beziehung zwischen
+zwei oder mehreren Ereignissen oder Variablen; oft als Vorhersage formuliert, dass
+bestimmte Ereignisse aufgrund spezifischer Bedingungen eintreten werden.
+
+\flushright
+@gerrig2020
+\vspace{2mm}
+
+\justifying
+Eine Hypothese ist eine experimentell zu prüfende Tatsachenbehauptung bzw. 
+präzise Angabe über die Art der erwarteten Abhängigkeitsbeziehung. Sie enthält
+die exakte Festlegung der variierten Bedingungen und der erwarteten Veränderungen, 
+d.h. eine möglichst präzise Vorhersage über die empirische Beziehung zwischen Ereignissen.
+
+\flushright
+@reiss2012
+\vspace{2mm}
+
+\justifying
+Der Begriff der Hypothese wird oft als grobe Idee über einen empirisch
+überprüfbaren Zusammenhang direkt oder indirekt beobachteter Phänomene verstanden 
+und sollte nicht mit einer statistischen Hypothese verwechselt. Generell ist der 
+Hypothesenbegriff eher verzichtbar und sollte durch modellbasierte Datenvorhersagen
+ersetzt werden.
+
+\flushright
+Ostwald (2025)
+
+# Theorien, Hypothesen, Experimente, Variablen
+\vspace{2mm}
+Hypothesen und Statistische Hypothese
+
+\small
+
+In der Psychologie werden die Begriffe "Hypothese" und "Statistische Hypothese" oft verwechselt
+
+$\quad\Rightarrow$ Der Begriff "Hypothese" und der Begriff der "Statistischen Hypothese" sind nicht gleich.
+
+* \justifying "Hypothese" meint hier zunächst etwas wie "aus der Theorie abgeleitete Datenvorhersage".
+* Eine "Statistische Hypothese" (Nullhypothese, Alternativhypothese) ist eine 
+Aussage über die Lage des wahren, aber unbekannten, Parameters im Parameterraum 
+eines statistischen Modells.
+
+Hypothesen können manchmal als statistische Hypothesen formuliert werden.
+
+$\quad\Rightarrow$ Hypothesen müssen nicht als statistische Hypothesen formuliert werden.
+
+$\quad\Rightarrow$ Es gibt mehr datenanalytische Verfahren als Frequentistisches Hypothesentesten.
+
+Die Annahme oder Ablehnung von statistischen Hypothesen sind Quantifizierungen 
+von Unsicherheit, keine abschließenden binären Urteile. Keine Hypothese wird 
+sich jemals als absolut "falsch" oder absolut "richtig" erweisen. Verweise auf
+die Falsifizierbarkeit von Theorien im Sinne des Popper'schen Kritischen Rationalismus
+sind also im besten Falle etwas altmodisch.
+
+# Theorien, Hypothesen, Experimente, Variablen
+Probabilistische Datenvorhersage und Hypothese
+\small
+\setstretch{1.3}
+
+Der in der Psychologie häufig angetroffene Hypothesenfokus ist problematisch:
+
+\begin{itemize}
+\item Verwechselung von Hypothesen und Statistischen Hypothesen
+\item Abwertung wichtiger naturwissenschaftlicher Beiträge wie zum Beispiel
+\begin{itemize}
+\begin{small}
+\item[$\circ$] Mathematische Modellentwicklung und analytische/simulierende Modellvalidation
+\item[$\circ$] Datenerhebung, Datenaufbereitung, Datenbereitstellung
+\item[$\circ$] Exploratorisch-charakterisierende Forschungsprojekte
+\end{small}
+
+\end{itemize}
+\end{itemize}
+
+Der Hypothesenfokus hat die Qualität (nicht nur psychologischer) Forschung gemindert:
+
+* p-Hacking: Datenselektion bis zum Ablehnen der (statistischen) Nullhypothese
+* HARKING: Hypothesizing After Results are Known (Pseudohypothesen)
+
+Entscheidend für das naturwissenschaftliche Paradigma ist es, dass aus Theorien 
+quantitative Vorhersagen beobachtbarer Daten abgeleitet werden, deren 
+explanatorische Unsicherheit probabilistisch quantifiziert werden kann und die
+Theorievergleiche ermöglicht.
+
+$\Rightarrow$ An die Stelle des "Hypothesentestens" sollte das "Modellvergleichen" treten.
+
+# Theorien, Hypothesen, Experimente, Variablen
+\vspace{2mm}
+Definitionsversuche für den Begriff des Experiments 
+
+\footnotesize
+
+Ein Experiment ist eine Untersuchung, bei welcher Untersuchungsleitende 
+aktiv und gezielt eine Intervention durchführen, um die Effekte der Intervention
+zu beobachten.
+
+\flushright
+@shadish2001
+\vspace{2mm}
+
+\justifying
+Ein Experiment ist eine empirische Untersuchung, bei der gezielt bestimmte 
+Bedingungen (Stufen der *unabhängigen Variable*) hergestellt werden und in 
+ihren Auswirkungen auf ausgewählte *abhängige Variablen* beobachtet werden.
+
+\flushright
+@doering2016
+\vspace{2mm}
+
+\justifying
+Ein Experiment ist ein systematischer Beobachtungsvorgang, aufgrund dessen der
+Versuchsleiter (sic) das jeweils interessierende Phänomen planmäßig erzeugt und 
+variiert sowie gleichzeitig systematische und/oder unsystematische Störfaktoren
+durch hierfür geeignete Techniken kontrolliert.
+
+\flushright
+@reiss2012
+
+\justifying
+Ein Experiment ist eine Interventionsstudie, die zur kausalen Ursachenforschung
+eingesetzt werden kann. Auch nicht-experimentell gewonnene Einsichten können einen
+Wert haben und mit den Methoden der kausalen Inferenz analysiert werden. Man denke
+an die Entwicklung der Theorie zur Beschreibung der Planetenbahnen.
+
+\flushright
+Ostwald (2025)
+
+
+# Theorien, Hypothesen, Experimente, Variablen
+\setstretch{1.6}
+\vspace{2mm}
+Experimente vs. Quasiexperimente vs. Nichtexperimentelle empirische Studien
+\small
+
+Experiment 
+
+* Randomisierte kontrollierte Studie
+* Die Untersuchungseinheiten werden den Versuchsbedingungen zufällig zugeordnet
+* Beispiel: Online Psychotherapie vs. Klassische Psychotherapie bei Depression
+
+Quasiexperiment 
+
+* Nicht-randomisierte kontrollierte Studie
+* Untersuchung natürlich bzw. bereits bestehender Gruppen
+* Beispiel: Online Psychotherapie bei Depression vs. Schizophrenie
+
+Nichtexperimentelle empirische Studien
+
+* Nicht-randomisierte, nicht kontrollierte Studie
+* Beobachtungsstudie ohne Intervention
+* Beispiel: Analyse von Paneldaten
+
+# Theorien, Hypothesen, Experimente, Variablen
+Datenerhebung und Experiment
+\small
+\setstretch{2}
+
+Ein rein experimenteller Fokus greift zu kurz 
+
+* Abwertung anderer wichtiger naturwissenschaftlicher Beiträge
+* Fokus auf experimentelles Design anstatt integrierter Betrachtung von Design und Analyse
+* Es gibt keinen prinzipiellen Unterschied zwischen "Hypothesentests" und "Korrelation" 
+* Datenerhebungen finden in einem mehrdimensionalen Datenerhebungsraum statt
+* Entscheidend ist die kritische Evaluation der Lage einer Datenerhebung in diesem Kontinuum
+* Experimentaldatenbesitzansprüche verhindert wissenschaftlichen Fortschritt
+* In der Regel wird von Studien, nicht von Experimenten gesprochen
+
+# Theorien, Hypothesen, Experimente, Variablen
+\large
+\vfill
+\setstretch{2}
+Eine Variable ist etwas, das durch Veränderlichkeit charakterisiert ist.
+
+\footnotesize
+\flushright
+@reiss2012
+
+\flushleft
+\large
+Variablenklassifikation
+
+* Manifeste und latente Variablen
+* Unabhängige und abhängige Variablen
+* Diskrete und kontinuierliche Variablen
+
+\vfill
+
+# Variablen und Operationalisierung
+\setstretch{2}
+Variablenklassifikation
+\small
+
+Manifeste Variablen
+
+* Direkt in ihrer Ausprägung beobachtbare Variablen
+* Selbsterklärender theoretischer Hintergrund und selbsterklärende Messbarkeit
+* Beispiele: Körpergröße, Lebensalter, Ergebnis eines psychologischen Tests
+
+Latente Variablen
+
+* Nicht-direkt in ihrer Ausprägung beobachtbare Variablen
+* Erklärungsbedürftiger theoretischer Hintergrund und komplexe Messbarkeit
+* Beispiele: Intelligenz, Therapieeffekt, neuronale Aktivität
+* Wissenschaftliche Konstrukte zur Erklärung der Variation manifester Variablen
+
+\flushright
+\footnotesize
+Vgl. @doering2023, Kapitel 8
+
+# Variablen und Operationalisierung
+Variablenklassifikation
+
+\small
+Unabhängige Variable  
+
+Etwas, das in einer Studie systematisch variiert wird, um seine Auswirkung
+auf eine oder mehrere abhängige Variable(n) zu untersuchen.
+
+Beispiele
+
+* Psychotherapeutische Behandlungsformen
+* Proband:innengruppierungsvariablen
+* Experimentelles Stimulusmaterial
+
+Abhängige Variable  
+
+Etwas, das in einer Studie erfasst wird, um zu überprüfen, wie sich systematisch
+variierte unabhängige Variablen auswirken
+
+Beispiele
+
+* Score in einem psychometrischen Test
+* Tastendrücke in einem Computerspiel
+* Gehirnaktivität
+
+
+# Variablen und Operationalisierung
+Variablenklassifikation
+\small
+
+Diskrete Variablen
+
+Diskrete (kategoriale) Variablen sind Variablen, die nur eine endliche Anzahl
+an verschiedenen Werten annehmen und meist durch ganze Zahlen repräsentiert sind.
+\vspace{4mm}
+
+Kontinuierliche Variablen
+
+Kontinuierliche Variablen sind Variablen, die unendlich viele Werte annehmen
+können und meist durch die reellen Zahlen repräsentiert sind.
+\vspace{4mm}
+
+Die Einordnung einer Variable als diskret oder kontinuierlich ist eine Modellannahme!
+
+\center
+\begin{tabular}{ll}
+Geschlecht        & m/w vs. m/w/d vs. Kontinuum                        \\
+Alter             & Zeit als reelle Zahl vs. 20, 21, 22, ..., 100      \\
+Reaktionszeiten   & Zeit als reelle Zahl vs. floating point numbers
+\end{tabular}
+
+
+# Variablen und Operationalisierung
+
+\setstretch{2}
+Variablenklassifikation
+
+Anmerkungen
+
+* Die Begriffsdefinitionen UV und AV sind etwas kontraintuitiv.
+* Variablentypen sollten nicht mit mathematischen Variablen verwechselt werden.
+* Alle Variablentypen können als Zufallsvariablen modelliert werden oder auch nicht.
+* Die Zuteilung von Phänomenen zu Variablentypen ist ein subjektiv-kreativer Prozess
+
+\center
+"One researcher's signal is another researcher's noise."
+
+#
+\vfill
+\setstretch{3}
+\Large
+
+Wissen und Weltverständnis
+
+Naturwissenschaft
+
+Theorien, Hypothesen, Experimente, Variablen
+
+**Selbstkontrollfragen**
+
+# Selbstkontrollfragen
+
+\vfill
+\small
+\setstretch{1.4}
+
+1. Erläutern Sie die Begriffe Naturwissenschaft, Geisteswissenschaft und
+   Formalwissenschaft.
+
+2. Erläutern Sie das idealisierte Zusammenspiel von Theorie und Empirie im
+   naturwissenschaftlichen Prozess.
+
+3. Erläutern Sie die Begriffe Induktion und Deduktion anhand der Fallbewegung.
+
+4. Geben Sie die in diesem Skript zugrunde gelegte Definition einer Theorie
+   wieder. Welche Rolle spielen quantitative Datenvorhersagen sowie
+   mathematische und informatische Modellbildung dabei?
+
+\vfill
+
+# Selbstkontrollfragen
+
+\vfill
+\small
+\setstretch{1.4}
+
+5. Unterscheiden Sie inhaltliche und statistische Hypothesen. Erläutern Sie,
+   warum wir den allgemeinen Hypothesenbegriff durch modellbasierte
+   Datenvorhersagen ersetzen und weshalb die Nichtablehnung einer Nullhypothese
+   deren Richtigkeit nicht nachweist.
+
+6. Geben Sie die in diesem Skript zugrunde gelegte Definition eines Experiments
+   wieder. Unterscheiden Sie randomisierte Experimente, Quasiexperimente und
+   nichtexperimentelle empirische Studien anhand von Intervention und Zuweisung
+   zu den untersuchten Bedingungen.
+
+7. Erläutern Sie, warum ein rein experimenteller Fokus für die Beurteilung
+   wissenschaftlichen Erkenntnisgewinns zu kurz greift.
+
+\vfill
+
+# Selbstkontrollfragen
+
+\vfill
+\small
+\setstretch{1.4}
+
+8. Erläutern Sie den Begriff der Variable und die drei im Text behandelten
+   Dimensionen ihrer Klassifikation. Zeigen Sie an einem Beispiel, wie eine
+   Variable gleichzeitig entlang aller drei Dimensionen eingeordnet werden kann.
+
+9. Unterscheiden Sie manifeste und latente Variablen anhand von Beispielen.
+
+10. Erläutern Sie die Rollen unabhängiger und abhängiger Variablen in einer
+   Studie. Warum sind diese Bezeichnungen weder mit statistischer Unabhängigkeit
+   noch mit dem Nachweis einer kausalen Abhängigkeit gleichzusetzen?
+
+11. Unterscheiden Sie diskrete und kontinuierliche Variablen. Erläutern Sie
+   anhand des Lebensalters oder der Reaktionszeit, weshalb diese Einordnung eine
+   Modellannahme ist, und erklären Sie den Unterschied zwischen diskreten und
+   kategorialen Variablen.
+
+\vfill
+
+# Referenzen
+\footnotesize 
