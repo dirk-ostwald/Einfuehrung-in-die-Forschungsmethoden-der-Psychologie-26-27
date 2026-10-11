@@ -23,21 +23,6 @@ stehen in der [Skript-Dokumentation](Skript/README.md).
 Weitere Informationen zur Veranstaltung stehen auf der
 [Kurswebseite](https://www.ipsy.ovgu.de/Institut/Abteilungen+des+Institutes/Methodenlehre/Lehre/Wintersemester+2027/Einf%C3%BChrung+in+die+Forschungsmethoden+der+Psychologie.html).
 
-## Materialien rendern
-
-Zum Bearbeiten und Rendern der Quellen werden Quarto, R mit `knitr` und den im
-Dokument verwendeten Paketen sowie eine LaTeX-Installation mit Beamer benötigt.
-Das Dokument aus seinem Themenordner rendern:
-
-```powershell
-cd 0-Formalia
-quarto render 0-Formalia.qmd --to beamer
-```
-
-Anschließend die erzeugte PDF prüfen. Die `.qmd`-Quelldateien, Header,
-Bibliografien, Abbildungen und fertigen Folien-PDFs werden gemeinsam versioniert.
-Temporäre Render-Dateien bleiben außerhalb von Git.
-
 ## Korrekturen und Beiträge
 
 Hinweise auf Fehler und Verbesserungsvorschläge sind willkommen. Bitte Thema,
