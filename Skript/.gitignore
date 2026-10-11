@@ -1,0 +1,16 @@
+_src/
+_latex/
+_book/*
+!_book/Skript-Einfuehrung-in-die-Forschungsmethoden-der-Psychologie.pdf
+.quarto/
+*.log
+*.aux
+*.toc
+*.out
+*.tex
+!_titelseite.tex
+!_layout.tex
+tmp/
+
+/.quarto/
+**/*.quarto_ipynb

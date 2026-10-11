@@ -1,0 +1,60 @@
+Inhaltsabgleich am 08.10.2026
+
+Fachfolien:
+C:\Home\Home\Lehre\2026\4-Einführung-in-die-Forschungsmethoden-der-Psychologie-25-26
+
+PDWP-Kapitel und zugehörige Vorlesungseinheiten:
+001 Naturwissenschaft: 1
+002 Psychologische Forschung: 2
+003 Psychologische Daten: 3
+004 Messen und Quantifizieren: 4, 5, 6, 7
+005 Studiendesign: 8, 9, 10
+006 Klinische Forschung: 11
+007 Qualitative Forschung: 12
+
+008 Ethik:
+C:\Home\Home\Lehre\2025\8_Analyse_und_Dokumentation_24_25\analyse-und-doku-25
+- 2_Ethik_und_ethische_Formalitaeten: ältere Vergleichsfassung
+- 2_Forschungsethik: überarbeitete Fassung für SoSe 2025
+- 4_Offenheit_und_Transparenz: ergänzender Themenblock
+Die beiden weitgehend übereinstimmenden Ethikfassungen werden nicht doppelt
+abgedruckt. Bei Überarbeitungen gilt Forschungsethik (SoSe 2025), einschließlich
+Zürich-Reddit-Chatbot-Beispiel, MPDG-Verweis und aktuellerer Formularversionen.
+
+Abgleich und Korrekturen in den PDWP-Quellen:
+- Die Fachtexte der Kapitel 001–007 entsprechen den genannten Folien.
+- In 004 waren die ersten sechs Selbstkontrollfragen versehentlich durch
+  unvollständige Zitatfragmente ersetzt. Wiederhergestellt wurden die sechs
+  Fragen aus Vorlesung 4; insgesamt enthält das Kapitel 25 Selbstkontrollfragen.
+- In 006 wurde die auf den Folien vorhandene Erklärung "Psychotherapieforschung"
+  für PTF ergänzt.
+- 008 wurde aus Forschungsethik und Offenheit/Transparenz in Buchform überführt.
+  Wiederholte Agenden, Titelfolien und TODO-Folien sind entfernt. Enthalten sind
+  die 28 zugehörigen Abbildungen und alle 26 Selbstkontrollfragen (18 + 8).
+- Zitatschlüssel wurden mit der gemeinsamen Bibliografie abgeglichen; zwei
+  vorhandene Literaturangaben aus der Folienbibliografie wurden übernommen.
+- Zwei doppelte Abbildungs-IDs in 004 und 005 wurden eindeutig gemacht.
+- Zwei zu breite LaTeX-Tabellen in 005 wurden ohne Inhaltsänderung in Markdown
+  überführt. Die Abstände vor Kommentaren im sichtbaren R-Beispiel sind gekürzt.
+
+Umfang:
+Die allgemeinen Veranstaltungsformalia, alten Termine, wiederholten Titelfolien
+und Agenden sind keine Fachkapitel dieses Skripts. Die leere Teilüberschrift
+000-Wissenschaftstheoretische-Grundlagen wird nicht als eigenes Kapitel gerendert.
+Selbstkontrollfragen bleiben vollständig erhalten und sind bei zusammengefassten
+Vorlesungen am Kapitelende gebündelt. Das Buch enthält keinen ergänzenden Fließtext.
+
+Prüfungen:
+- Normalisierter Textvergleich der Fachfolien und PDWP-Kapitel.
+- Dateivergleich der eingebundenen Abbildungen mit den Folienressourcen.
+- Alle 60 Zeilen der sechs eingefrorenen Beispieltabellen in Kapitel 003 mit
+  den gerenderten Folien-PDFs verglichen: identisch.
+- Alle 22 R-Blöcke in Kapitel 005 mit den Folienquellen verglichen: gleiche
+  Berechnungen; Anpassungen betreffen Dateipfade, Tabellenausgabe und Abstände.
+- CSV-Beispieldaten in Kapitel 005 sind mit den Foliendaten identisch.
+- Prüfung auf fehlende Ressourcen, unbekannte Zitatschlüssel, doppelte IDs und
+  fehlerhafte Zeichenkodierung; PDF-Rendern und visuelle Prüfung des Satzbilds.
+
+Abschlussergebnis: PDF mit 206 Seiten; zwei unmittelbar aufeinanderfolgende
+Renderläufe erfolgreich. 172 Bildverweise, 120 Zitatschlüssel, 250 eindeutige
+IDs und 149 Selbstkontrollfragen geprüft.
