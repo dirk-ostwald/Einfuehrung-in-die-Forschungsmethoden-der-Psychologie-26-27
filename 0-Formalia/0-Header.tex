@@ -134,3 +134,9 @@ Folie \insertframenumber}
 \DeclareMathOperator*{\argmax}{arg\,max}
 \DeclareMathOperator*{\argmin}{arg\,min}
 
+
+% spacing between bibliography entries
+% -----------------------------------------------------------------------------
+\AtBeginDocument{%
+  \apptocmd{\CSLReferences}{\setlength{\itemsep}{1pt}}{}{}%
+}

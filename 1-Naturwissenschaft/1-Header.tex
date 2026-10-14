@@ -130,3 +130,10 @@ Folie \insertframenumber}
 
 % Rounded image clipping and editable collage text
 \usepackage{tikz}
+\usetikzlibrary{fadings}
+
+% spacing between bibliography entries
+% -----------------------------------------------------------------------------
+\AtBeginDocument{%
+  \apptocmd{\CSLReferences}{\setlength{\itemsep}{1pt}}{}{}%
+}
