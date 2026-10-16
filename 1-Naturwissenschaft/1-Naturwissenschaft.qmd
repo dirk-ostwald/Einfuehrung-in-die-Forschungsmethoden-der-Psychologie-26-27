@@ -990,11 +990,9 @@ Theorien, Hypothesen, Experimente, Variablen
 
 **Selbstkontrollfragen**
 
-# Selbstkontrollfragen
-
-\vfill
-\small
-\setstretch{1.4}
+# Selbstkontrollfragen {.allowframebreaks}
+\footnotesize
+\setstretch{1.2}
 
 1. Erläutern Sie die Begriffe Naturwissenschaft, Geisteswissenschaft und
    Formalwissenschaft.
@@ -1008,13 +1006,9 @@ Theorien, Hypothesen, Experimente, Variablen
    wieder. Welche Rolle spielen quantitative Datenvorhersagen sowie
    mathematische und informatische Modellbildung dabei?
 
-\vfill
-
-# Selbstkontrollfragen
-
-\vfill
-\small
-\setstretch{1.4}
+# Selbstkontrollfragen {.allowframebreaks}
+\footnotesize
+\setstretch{1.2}
 
 5. Unterscheiden Sie inhaltliche und statistische Hypothesen. Erläutern Sie,
    warum wir den allgemeinen Hypothesenbegriff durch modellbasierte
@@ -1029,13 +1023,9 @@ Theorien, Hypothesen, Experimente, Variablen
 7. Erläutern Sie, warum ein rein experimenteller Fokus für die Beurteilung
    wissenschaftlichen Erkenntnisgewinns zu kurz greift.
 
-\vfill
-
-# Selbstkontrollfragen
-
-\vfill
-\small
-\setstretch{1.4}
+# Selbstkontrollfragen {.allowframebreaks}
+\footnotesize
+\setstretch{1.2}
 
 8. Erläutern Sie den Begriff der Variable und die drei im Text behandelten
    Dimensionen ihrer Klassifikation. Zeigen Sie an einem Beispiel, wie eine
@@ -1051,8 +1041,6 @@ Theorien, Hypothesen, Experimente, Variablen
    anhand des Lebensalters oder der Reaktionszeit, weshalb diese Einordnung eine
    Modellannahme ist, und erklären Sie den Unterschied zwischen diskreten und
    kategorialen Variablen.
-
-\vfill
 
 # Referenzen
 \footnotesize 
