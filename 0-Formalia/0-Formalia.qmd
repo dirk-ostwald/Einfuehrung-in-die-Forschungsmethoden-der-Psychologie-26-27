@@ -24,7 +24,7 @@ knitr::include_graphics("0-Abbildungen/pfm-0-otto.png")
 \vspace{1mm}
 
 \normalsize
-BSc Philosophie-Neurowissenschaften-Kognition WiSe 2026/27
+BSc Philosophie-Neurowissenschaften-Künstliche Intelligenz WiSe 2026/27
 
 BSc Psychologie WiSe 2026/27
 
@@ -128,7 +128,7 @@ Datum        & Einheit                       & Thema				                        
              & \textcolor{black!50}{Weihnachtspause}                    \\
 08.01.2027   & Studiendesign                 & (10) Randomisierte Studiendesigns            \\
 15.01.2027   & Studiendesign                 & (11) Nichtrandomisierte Studiendesigns        \\
-22.01.2027   & Studiendesign                 & (12) Epidemiologische Forschung              \\
+22.01.2027   & Studiendesign                 & (12) Klinische Forschung                     \\
 29.01.2027   & Studiendesign                 & (13) Qualitative Forschung                   \\\hline
 März 2027    & Klausurtermin                 &                                \\
 September 2027    & Klausurwiederholungstermin    &
@@ -241,11 +241,11 @@ knitr::include_graphics("0-Abbildungen/pfm-0-pre-post-26.pdf")
 Evaluation Einführung in die Psychologischen Forschungsmethoden WiSe 2024/25 (n = 29)
 \center
 \footnotesize
-$\bullet$      Stimme voll und ganz zu       $\,$
-$\bullet$ Stimme zu                     $\,$
-$\bullet$     Neutral                       $\,$
-$\bullet$     Stimme nicht zu               $\,$
-$\bullet$        Stimme überhaupt nicht zu     $\,$
+\textcolor{green}{$\bullet$}      Stimme voll und ganz zu       $\,$
+\textcolor{lightgreen}{$\bullet$} Stimme zu                     $\,$
+\textcolor{yellow}{$\bullet$}     Neutral                       $\,$
+\textcolor{orange}{$\bullet$}     Stimme nicht zu               $\,$
+\textcolor{red}{$\bullet$}        Stimme überhaupt nicht zu     $\,$
 $\Box$                            k.A.
 \vspace{1mm}
 

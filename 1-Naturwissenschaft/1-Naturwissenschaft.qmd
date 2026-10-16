@@ -20,7 +20,7 @@ knitr::include_graphics("1-Abbildungen/pfm-1-otto.png")
 \vspace{1mm}
 
 \normalsize
-BSc Philosophie-Neurowissenschaften-Kognition WiSe 2026/27
+BSc Philosophie-Neurowissenschaften-Künstliche Intelligenz WiSe 2026/27
 
 BSc Psychologie WiSe 2026/27
 
