@@ -3,7 +3,7 @@
 Vorlesungsmaterialien von **Prof. Dr. Dirk Ostwald**, Institut für Psychologie,
 Otto-von-Guericke-Universität Magdeburg. Die Veranstaltung vermittelt Grundlagen
 der Forschungsmethoden für das Psychologiestudium und den Studiengang
-Philosophie-Neurowissenschaften-Kognition.
+Philosophie-Neurowissenschaften-Künstliche Intelligenz.
 
 ## Materialien
 
