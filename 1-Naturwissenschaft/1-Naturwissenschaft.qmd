@@ -992,55 +992,18 @@ Theorien, Hypothesen, Experimente, Variablen
 
 # Selbstkontrollfragen {.allowframebreaks}
 \footnotesize
-\setstretch{1.2}
+\setstretch{2.2}
 
-1. Erläutern Sie die Begriffe Naturwissenschaft, Geisteswissenschaft und
-   Formalwissenschaft.
-
-2. Erläutern Sie das idealisierte Zusammenspiel von Theorie und Empirie im
-   naturwissenschaftlichen Prozess.
-
-3. Erläutern Sie die Begriffe Induktion und Deduktion anhand der Fallbewegung.
-
-4. Geben Sie die in diesem Skript zugrunde gelegte Definition einer Theorie
-   wieder. Welche Rolle spielen quantitative Datenvorhersagen sowie
-   mathematische und informatische Modellbildung dabei?
-
-# Selbstkontrollfragen {.allowframebreaks}
-\footnotesize
-\setstretch{1.2}
-
-5. Unterscheiden Sie inhaltliche und statistische Hypothesen. Erläutern Sie,
-   warum wir den allgemeinen Hypothesenbegriff durch modellbasierte
-   Datenvorhersagen ersetzen und weshalb die Nichtablehnung einer Nullhypothese
-   deren Richtigkeit nicht nachweist.
-
-6. Geben Sie die in diesem Skript zugrunde gelegte Definition eines Experiments
-   wieder. Unterscheiden Sie randomisierte Experimente, Quasiexperimente und
-   nichtexperimentelle empirische Studien anhand von Intervention und Zuweisung
-   zu den untersuchten Bedingungen.
-
-7. Erläutern Sie, warum ein rein experimenteller Fokus für die Beurteilung
-   wissenschaftlichen Erkenntnisgewinns zu kurz greift.
-
-# Selbstkontrollfragen {.allowframebreaks}
-\footnotesize
-\setstretch{1.2}
-
-8. Erläutern Sie den Begriff der Variable und die drei im Text behandelten
-   Dimensionen ihrer Klassifikation. Zeigen Sie an einem Beispiel, wie eine
-   Variable gleichzeitig entlang aller drei Dimensionen eingeordnet werden kann.
-
-9. Unterscheiden Sie manifeste und latente Variablen anhand von Beispielen.
-
-10. Erläutern Sie die Rollen unabhängiger und abhängiger Variablen in einer
-   Studie. Warum sind diese Bezeichnungen weder mit statistischer Unabhängigkeit
-   noch mit dem Nachweis einer kausalen Abhängigkeit gleichzusetzen?
-
-11. Unterscheiden Sie diskrete und kontinuierliche Variablen. Erläutern Sie
-   anhand des Lebensalters oder der Reaktionszeit, weshalb diese Einordnung eine
-   Modellannahme ist, und erklären Sie den Unterschied zwischen diskreten und
-   kategorialen Variablen.
+1. Erläutern Sie die Begriffe Naturwissenschaft, Geisteswissenschaft und Formalwissenschaft.
+1. Erläutern Sie das idealisierte Zusammenspiel von Theorie und Empirie im naturwissenschaftlichen Prozess.
+1. Erläutern Sie die Begriffe Induktion und Deduktion.
+1. Erläutern Sie den Begriff einer Theorie.
+1. Erläutern Sie den Begriff einer Hypothese.
+1. Erläutern Sie den Begriff eines Experiments.
+1. Erläutern Sie den Begriff einer Variable und die drei im Text behandelten Dimensionen ihrer Klassifikation.
+1. Erläutern Sie die Begriffe manifeste und latente Variablen anhand von Beispielen.
+1. Erläutern Sie die Rollen unabhängiger und abhängiger Variablen in einer Studie.
+1. Erläutern Sie die Begriffe diskrete und kontinuierliche Variablen.
 
 # Referenzen
 \footnotesize 
