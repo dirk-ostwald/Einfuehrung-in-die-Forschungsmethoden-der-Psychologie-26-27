@@ -177,9 +177,9 @@ Explorative Studien
 * Erkundung bisher wenig untersuchter Gegenstandsbereiche
 * Meist kleiner Stichprobenumfang und wenig standardisiertes Vorgehen
 
-Explanative Studien
+Konfirmatorische Studien
 
-* Konfirmatorische Überprüfung aus der Theorie hergeleiteter Hypothesen
+* Explanative Überprüfung aus der Theorie hergeleiteter Hypothesen
 * Meist mittlerer Stichprobenumfang und eher inferenzstatistisches Vorgehen
 
 \flushright
@@ -230,6 +230,40 @@ Beispiel zum Erklären und Vorhersagen menschlichen Verhaltens
 \footnotesize
 @ostwald2026, @usee2026
 
+
+# Beispiele psychologischer Grundlagenforschung
+
+```{=latex}
+\hypersetup{colorlinks=true,urlcolor=blue}
+\vspace{1mm}
+{\large Computational Psychiatry}\par
+\begin{center}
+\includegraphics[height=35mm]{2-Abbildungen/pfm-2-computational-psychiatry.png}
+\end{center}
+\vspace{-1mm}
+{\small
+\begin{spacing}{1.05}
+\begin{itemize}
+\item Mathematische Modellierung von psychischen Prozessen und Störungen.
+\item Verknüpfung von Gehirn, Erleben, Verhalten und Umwelt.
+\item Verbindung mechanistischer Modelle und datengetriebener Verfahren.
+\item Vorhersage klinischer Verläufe und Erklärung psychotherapeutischer Prozesse.
+\end{itemize}
+\end{spacing}
+}
+\vfill
+\begin{flushright}
+\footnotesize
+\setstretch{1.0}
+```
+
+@montague2012, @huys2016, @series2020, @hitchcock2022, @berwian2025
+
+```{=latex}
+\href{https://cpsyjournal.org/}{\textcolor{blue}{Computational Psychiatry Journal}},
+\href{https://www.cpconf.org/}{\textcolor{blue}{Computational Psychiatry Conference}}
+\end{flushright}
+```
 
 # Beispiele psychologischer Grundlagenforschung
 \vspace{2mm}
@@ -315,11 +349,11 @@ Theorie
 \setlength{\abovedisplayshortskip}{2pt}
 \setlength{\belowdisplayshortskip}{3pt}
 
-Current value (A8)
+Current value (A7)
 \begin{equation}
 \notag
-v_8(s,t,c) = \beta_{0,s} + \beta_1 r_s + \beta_2 p_s
-- \beta_1 n_r(s,t,c) + \beta_2 n_p(s,t,c) + \beta_4 t_z
+v_7(s,t,c) = \beta_{0,s} + \beta_1 r_s + \beta_2 p_s
+- \beta_1 n_r(s,t,c) + \beta_2 n_p(s,t,c)
 \mbox{ mit } \beta_1 > 0,\quad \beta_2 < 0
 \end{equation}
 
@@ -333,21 +367,21 @@ Reference value
 Conditional stopping probability
 \begin{equation}
 \notag
-\pi_i(s,t,c) = \frac{1}{1+\exp\left(v_i(s,t,c)-\bar v(s)\right)},
-\quad c<16,\quad \pi_i(s,t,16)=1
+\pi_7(s,t,c) = \frac{1}{1+\exp\left(v_7(s,t,c)-\bar v(s)\right)},
+\quad c<16,\quad \pi_7(s,t,16)=1
 \end{equation}
 
 Distribution of latent decisions
 \begin{equation}
 \notag
-p_i(a_t=c\mid s_t) = \pi_i(s_t,t,c)
-\prod_{k=1}^{c-1}\left(1-\pi_i(s_t,t,k)\right),
+p_7(a_t=c\mid s_t) = \pi_7(s_t,t,c)
+\prod_{k=1}^{c-1}\left(1-\pi_7(s_t,t,k)\right),
 \quad c=1,\ldots,16
 \end{equation}
 
 \footnotesize
-$i\in\{7,8\}$, $n_r,n_p$: bisher gefundene Belohnungen bzw. Bestrafungen,
-$t_z$: standardisierter Trial-Index.
+$n_r,n_p$: bisher gefundene Belohnungen bzw. Bestrafungen.
+
 
 \flushright
 \footnotesize
@@ -424,7 +458,7 @@ Gegenstandsbereich und Phänomen
 
 \flushright
 \footnotesize
-@helmholtz1867, @friston2005, @ostwald2012, @gijsen2021
+@helmholtz1867, @friston2005a, @ostwald2012, @gijsen2021, @lindborg2023
 
 # Beispiele psychologischer Grundlagenforschung
 \normalsize
@@ -746,7 +780,7 @@ Psychologische Anwendungsforschung durch BigTech
 1. Erläutern Sie den Begriff der psychologischen Anwendungsforschung.
 1. Erläutern Sie die Begriffe der theoretischen, methodischen und empirischen
   Studien.
-1. Erläutern Sie die Begriffe der explorativen, deskriptiven und explanativen
+1. Erläutern Sie die Begriffe der explorativen, deskriptiven und konfirmatorischen
   empirischen Studien.
 
 # Referenzen {.allowframebreaks}

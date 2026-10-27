@@ -1,0 +1,6 @@
+# Im Kursordner ausschließlich das zugehörige Vorlesungsskript rendern.
+project:
+  type: default
+  render: []
+  pre-render:
+    - powershell.exe -NoProfile -ExecutionPolicy Bypass -File _render-skript.ps1

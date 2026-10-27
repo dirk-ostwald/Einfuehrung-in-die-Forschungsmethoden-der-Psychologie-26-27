@@ -36,3 +36,6 @@ tmp/
 .vscode/
 .sync-exclude.lst
 inspect.json
+
+/.quarto/
+**/*.quarto_ipynb

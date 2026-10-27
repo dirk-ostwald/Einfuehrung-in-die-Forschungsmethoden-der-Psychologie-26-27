@@ -1,6 +1,8 @@
 project:
   type: book
   output-dir: _book
+  post-render:
+    - powershell.exe -NoProfile -ExecutionPolicy Bypass -File _cleanup-tex.ps1
 
 lang: de
 csl: https://www.zotero.org/styles/apa
@@ -18,11 +20,11 @@ book:
     - name: Dirk Ostwald
       affiliation: Otto-von-Guericke-Universität Magdeburg
   date: today
-  output-file: Skript-Einfuehrung-in-die-Forschungsmethoden-der-Psychologie
+  output-file: Einfuehrung-in-die-Forschungsmethoden-der-Psychologie-2027
   chapters:
     - index.qmd
     - _src/_part_0/001-Naturwissenschaft.qmd
-    # - _src/_part_0/002-Psychologische-Forschung.qmd
+    - _src/_part_0/002-Psychologische-Forschung.qmd
     # - _src/_part_0/003-Psychologische-Daten.qmd
     # - _src/_part_0/004-Messen-und-Quantifizieren.qmd
     # - _src/_part_0/005-Studiendesign.qmd

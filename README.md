@@ -15,10 +15,25 @@ außer einem PDF-Betrachter erforderlich.
 | 0 · Formalia | [PDF](0-Formalia/0-Formalia.pdf) | [Ordner](0-Formalia/) |
 | 1 · Naturwissenschaft | [PDF](1-Naturwissenschaft/1-Naturwissenschaft.pdf) | [Ordner](1-Naturwissenschaft/) |
 | 2 · Psychologische Forschung | [PDF](2-Psychologische-Forschung/2-Psychologische-Forschung.pdf) | [Ordner](2-Psychologische-Forschung/) |
-| Vorlesungsskript | [PDF](Skript/_book/Skript-Einfuehrung-in-die-Forschungsmethoden-der-Psychologie.pdf) | [Ordner](Skript/) |
+| Vorlesungsskript | [PDF](Vorlesungsskript/_book/Einfuehrung-in-die-Forschungsmethoden-der-Psychologie-2027.pdf) | [Ordner](Vorlesungsskript/) |
 
 Weitere Informationen zur Veranstaltung stehen auf der
 [Kurswebseite](https://www.ipsy.ovgu.de/Institut/Abteilungen+des+Institutes/Methodenlehre/Lehre/Wintersemester+2027/Einf%C3%BChrung+in+die+Forschungsmethoden+der+Psychologie.html).
+
+## Vorlesungsskript rendern
+
+Im Hauptordner dieser Veranstaltung genügt:
+
+```powershell
+quarto render
+```
+
+Die Konfiguration leitet den Aufruf an das Buchprojekt in `Vorlesungsskript`
+weiter. Gerendert werden die dort aktivierten Kapitel, derzeit 001 und 002,
+mit dem Titel „Einführung in die Forschungsmethoden der Psychologie“.
+Die PDF liegt in `Vorlesungsskript/_book`. Für die Buchauswahl und das Layout
+bleibt `Vorlesungsskript/_quarto.yml` maßgeblich. Eine bereits geöffnete
+Ausgabe-PDF muss gegebenenfalls vor dem Rendern geschlossen werden.
 
 ## Korrekturen und Beiträge
 
