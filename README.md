@@ -7,8 +7,6 @@ Philosophie-Neurowissenschaften-Künstliche Intelligenz.
 
 ## Materialien
 
-Die Folien liegen als fertige PDFs vor. Zum Lesen ist keine Softwareinstallation
-außer einem PDF-Betrachter erforderlich.
 
 | Thema | Folien | Quellen und Abbildungen |
 | --- | --- | --- |
