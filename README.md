@@ -7,7 +7,7 @@ Philosophie-Neurowissenschaften-Künstliche Intelligenz.
 
 ## Materialien
 
-| Einheit | Thema | 
+| Einheit | PDF | 
 |:--- | --- |  
 | 0 · Formalia | [PDF](0-Formalia/0-Formalia.pdf) |  
 | 1 · Naturwissenschaft | [PDF](1-Naturwissenschaft/1-Naturwissenschaft.pdf) |  
