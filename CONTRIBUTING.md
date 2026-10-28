@@ -32,8 +32,8 @@ bestehenden Ignore-Regeln außerhalb der Versionsverwaltung.
 
 Die Kapitel des Skripts stammen aus einem separaten PDWP-Quellprojekt.
 Inhaltliche Änderungen dieser Kapitel gehören dorthin. Die lokale Einbindung
-`Skript/_src` ist eine Verzeichnisverknüpfung, keine unabhängige Kopie.
-Änderungen darin wirken unmittelbar auf das Quellprojekt. `Skript/_latex`
+`Vorlesungsskript/_src` ist eine Verzeichnisverknüpfung, keine unabhängige Kopie.
+Änderungen darin wirken unmittelbar auf das Quellprojekt. `Vorlesungsskript/_latex`
 verweist auf einen lokalen LaTeX-Cache.
 
 ## Literatur

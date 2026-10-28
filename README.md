@@ -7,12 +7,12 @@ Philosophie-Neurowissenschaften-Künstliche Intelligenz.
 
 ## Materialien
 
-| Einheit | PDF | 
-|:--- | --- |  
-| 0 · Formalia | [PDF](0-Formalia/0-Formalia.pdf) |  
-| 1 · Naturwissenschaft | [PDF](1-Naturwissenschaft/1-Naturwissenschaft.pdf) |  
-| 2 · Psychologische Forschung | [PDF](2-Psychologische-Forschung/2-Psychologische-Forschung.pdf) | 
-| Vorlesungsskript | [PDF](Vorlesungsskript/_book/Einfuehrung-in-die-Forschungsmethoden-der-Psychologie-2027.pdf) | 
+| Einheit | PDF |
+|:--- | --- |
+| 0 · Formalia | [PDF](0-Formalia/0-Formalia.pdf) |
+| 1 · Naturwissenschaft | [PDF](1-Naturwissenschaft/1-Naturwissenschaft.pdf) |
+| 2 · Psychologische Forschung | [PDF](2-Psychologische-Forschung/2-Psychologische-Forschung.pdf) |
+| Vorlesungsskript | [PDF](Vorlesungsskript/_book/Einfuehrung-in-die-Forschungsmethoden-der-Psychologie-2027.pdf) |
 
 Weitere Informationen zur Veranstaltung stehen auf der
 [Kurswebseite](https://www.ipsy.ovgu.de/Institut/Abteilungen+des+Institutes/Methodenlehre/Lehre/Wintersemester+2027/Einf%C3%BChrung+in+die+Forschungsmethoden+der+Psychologie.html).
