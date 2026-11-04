@@ -1,0 +1,564 @@
+---
+fontsize: 8pt
+format:
+    beamer:
+        include-in-header: "3-Header.tex"
+bibliography: 3-Referenzen.bib
+nocite: |
+  @luck2014, @huettel2014
+---
+
+
+#  {.plain}
+\center
+\vspace{3mm}
+```{r, echo = FALSE, out.width = "20%"}
+knitr::include_graphics("3-Abbildungen/pfm-3-otto.png")
+```
+
+\vspace{4mm}
+
+\Large
+\resizebox{\linewidth}{!}{Einführung in die Forschungsmethoden der Psychologie}
+\vspace{1mm}
+
+\normalsize
+BSc Philosophie-Neurowissenschaften-Künstliche Intelligenz WiSe 2026/27
+
+BSc Psychologie WiSe 2026/27
+
+\large
+\vspace{6mm}
+Prof. Dr. Dirk Ostwald
+
+#  {.plain}
+
+\vfill
+\center
+\huge
+\textcolor{black}{(3) Psychologische Daten}
+\vfill
+
+# 
+\Large
+\setstretch{2.5}
+\vfill
+Psychologische Daten
+
+Verhaltensdaten
+
+Physiologische Daten
+
+Datenbereitstellung
+
+Selbstkontrollfragen
+\vfill
+
+# 
+\Large
+\setstretch{2.5}
+\vfill
+**Psychologische Daten**
+
+Verhaltensdaten
+
+Physiologische Daten
+
+Datenbereitstellung
+
+Selbstkontrollfragen
+\vfill
+
+# Psychologische Daten
+Arbeitsphasen des empirischen Forschungsprozesses
+```{r, echo = FALSE, out.width = "60%", fig.align = "center"}
+knitr::include_graphics("3-Abbildungen/003-forschungsprozess-phasen.pdf")
+```
+\flushright
+Daten sind im Forschungsprozess zentral - Theorie aber auch!
+
+
+# Psychologische Daten
+\vspace{1mm}
+\setstretch{1.2}
+
+\small
+Rohdaten
+
+* Ursprungsaufzeichnungen, z. B. Kreuze auf einem Papierfragebogen, Zeichnungen 
+
+Primärdaten 
+
+* Erste Übertragung der Rohdaten in ein digitales Format
+* Bei digital erfassten Daten äquivalent zu Rohdaten
+* Vollkommen unbearbeitete quantitative und qualitative Daten
+
+Beispiele
+\footnotesize
+
+* Bei Experimenten alle manipulierten und gemessenen Variablen für jeden
+  Experimentaldurchgang jeder Person
+* Bei Fragebögen die Antworten jeder Person auf jedem Item
+* Bei Freitext-Eingaben der Originalwortlaut (...)
+* Digitalisierte Videoaufnahmen (...)
+* Downloads oder Screenshots von Inhalten sozialer Medien (...)
+* Bei (neuro)physiologischen Daten (wie EEG- oder fMRT-Daten) verlustfrei umgewandelte Daten 
+  in einem standardisierten Rohdatenformat (...), die nicht aggregiert sind.
+
+\small
+Primärdaten sollten FAIR bereitgestellt werden 
+
+* Findable ("Auffindbar"), Accessible ("Zugänglich"), Interoperable, Reusable ("Nachnutzbar")
+
+\flushright
+\footnotesize
+@schoenbrodt2017, @gollwitzer2021
+
+
+# Psychologische Daten
+\large
+Psychologische Daten = observierbare Variablen
+\vspace{1mm}
+```{r, echo = FALSE, out.width = "85%", fig.align = "center"}
+knitr::include_graphics("3-Abbildungen/003-latente-variablen.pdf")
+```
+
+# Psychologische Daten
+\vspace{2mm}
+\large
+Psychologische Datentypen
+\vspace{-2mm}
+```{r, echo = FALSE, out.width = "90%", fig.align = "center"}
+knitr::include_graphics("3-Abbildungen/003-psychologische-daten.pdf")
+```
+
+# Psychologische Daten
+\large
+Datenaufnahmeraum
+
+```{r, echo = FALSE, out.width = "85%", fig.align = "center"}
+knitr::include_graphics("3-Abbildungen/003-datenaufnahmeraum.pdf")
+```
+
+# 
+\Large
+\setstretch{2.5}
+\vfill
+Psychologische Daten
+
+**Verhaltensdaten**
+
+Physiologische Daten
+
+Datenbereitstellung
+
+Selbstkontrollfragen
+\vfill
+
+# Verhaltensdaten
+\setstretch{1.7}
+
+Befragungsdaten
+
+* Mündliches Interview
+* Schriftliches Interview
+* Tests und Fragebögen
+* Strukturierte Tagebuchberichte
+* Wiederholte alltagsnahe Selbstberichte (EMA)
+* $\cdots$
+
+Beobachtungsdaten
+
+* Analoge strukturierte Fremdbeobachtung
+* Computerbasierte Verhaltensparadigmen (Psychophysik, Verhaltensökonomie)
+* Verhalten auf Social-Media-Plattformen, Computerspieldaten
+* $\cdots$
+
+# Verhaltensdaten
+Befragungsdaten | Psychologische Tests und Fragebögen 
+
+```{r, echo = FALSE, out.width = "105%", fig.align = "center"}
+knitr::include_graphics("3-Abbildungen/pfm-3-bdi.pdf")
+```
+
+# Verhaltensdaten
+Befragungsdaten | Psychologische Tests und Fragebögen 
+
+\small
+Beispieldatensatz
+
+\footnotesize
+\vspace{1mm}
+$n = 12$ Proband:innen, $m = 21$ Fragen, mögliche Antworten 0,1,2,3  
+\vspace{1mm}
+\tiny
+```{r, echo  = F}
+# Datenbeispielgeneration
+n           = 12                                                                # Anzahl Zeilen
+m           = 21                                                                # Anzahl Spalten
+D           = as.data.frame(matrix(round(runif(n*m, min=0, max=3)), nrow = n))  # Daten
+rownames(D) = paste("", as.character(1:n))                                      # Zeilenbezeichner  
+colnames(D) = paste("", as.character(1:m))                                      # Spaltenbezeichner
+knitr::kable(D, "pipe", align = "c")                                            # Datenbeispielvisualisierung
+``` 
+
+# Verhaltensdaten
+
+Befragungsdaten | Ecological Momentary Assessment
+\small 
+
+Motivation
+
+* Tests und Fragebögen nutzen häufig retrospektive Fragen (z. B. "in den letzten
+  zwei Wochen").
+* Retrospektive Fragen können Erinnerungsverzerrungen aufweisen
+
+Ecological Momentary Assessment (EMA) aka Experience Sampling Method (ESM)
+
+* Abfrage momentanen Verhaltens/Fühlens in natürlicher Umgebung mit digitalen Endgeräten 
+* Ereignisbasierte, intervallbasierte oder zufallsbasierte Abfragefrequenz
+
+App-basierte Services
+
+* [\textcolor{darkblue}{Movisens}](https://www.movisens.com/en/products/movisensxs/)
+* [\textcolor{darkblue}{Expiwell}](https://www.expiwell.com/)
+* [\textcolor{darkblue}{Teamscope}](https://www.teamscopeapp.com/)
+* u\. v\. a\. m.
+
+# Verhaltensdaten
+Befragungsdaten | Ecological Momentary Assessment
+
+\small
+Beispieldatensatz
+
+\footnotesize
+\vspace{1mm}
+$n = 10$ Proband:innen, $m = 7$ Abfragezeitpunkte T1 - T7 
+
+Mögliche Antworten auf visueller Skala "Sad (0) $\Leftrightarrow$ Happy (1)"
+als Werte im Intervall $[0,1]$ kodiert 
+\vspace{1mm}
+```{r, echo  = F}
+# Datenbeispielgeneration
+n           = 10                                                                # Anzahl Zeilen
+m           = 7                                                                 # Anzahl Spalten
+D           = matrix(round(runif(n*m, min=0, max=1), digits = 2), nrow = n)     # Daten
+D           = as.data.frame(D)                                                  # Dataframe
+rownames(D) = paste("Proband:in", as.character(1:n))                            # Zeilenbezeichner  
+colnames(D) = paste0("T", as.character(1:m))                                    # Spaltenbezeichner
+knitr::kable(D, "pipe", align = "c")                                            # Datenbeispielvisualisierung
+``` 
+
+
+
+# Verhaltensdaten
+Beobachtungsdaten | Psychophysik und Verhaltensökonomie
+\vspace{10mm}
+```{r, echo = FALSE, out.width = "100%", fig.align = "center"}
+knitr::include_graphics("3-Abbildungen/pfm-3-verhaltensdatenaufnahme.pdf")
+```
+
+# Verhaltensdaten
+Beobachtungsdaten | Psychophysik und Verhaltensökonomie
+
+\small
+Beispieldatensatz
+
+\vspace{1mm}
+\footnotesize
+$n = 8$ Proband:innen, $m = 5$ binäre Entscheidungen, mögliche Antworten als Elemente in $\{0,1\}$ kodiert 
+\vspace{1mm}
+```{r, echo  = F}
+# Datenbeispielgeneration
+n           = 8                                                                  # Anzahl Zeilen
+m           = 5                                                                  # Anzahl Spalten
+D           = as.data.frame(matrix(round(runif(n*m, min=0, max=1)), nrow = n))   # Daten
+rownames(D) = paste("Proband:in"  , as.character(1:n))                          # Zeilenbezeichner  
+colnames(D) = paste("Entscheidung" , as.character(1:m))                          # Spaltenbezeichner
+knitr::kable(D, "pipe", align = "c")                                             # Datenbeispielvisualisierung
+``` 
+
+# 
+\Large
+\setstretch{2.5}
+\vfill
+Psychologische Daten
+
+Verhaltensdaten
+
+**Physiologische Daten**
+
+Datenbereitstellung
+
+Selbstkontrollfragen
+\vfill
+
+
+# Physiologische Daten
+Vegetativphysiologische Daten
+
+* Medizinische Befunde 
+* Hormonspiegel
+* Immunmarker 
+* Hautleitwiderstand
+* $\cdots$
+
+Neurophysiologische Daten
+
+* Elektroenzephalographie (EEG)
+* Magnetoenzephalographie (MEG)
+* Funktionelle Magnetresonanztomographie (fMRT)
+* Magnet- und Gleichstromstimulationsverfahren (TMS, tDCS)
+* $\cdots$
+
+# Physiologische Daten
+Vegetativphysiologische Daten | Hautleitwiderstand  
+\vspace{5mm}
+
+
+```{r, echo = FALSE, out.width = "75%", fig.align = "center"}
+knitr::include_graphics("3-Abbildungen/pfm-3-hautleitwiderstand.pdf")
+```
+
+
+# Physiologische Daten
+Vegetativphysiologische Daten | Hautleitwiderstand 
+
+\small
+Beispieldatensatz
+
+\footnotesize
+\vspace{1mm}
+$1$ Fingerelektrode, $n = 8$ Proband:innen, $m = 7$ Messzeitpunkte (2 ms),
+mögliche Werte in $\mathbb{R}$ ($\Omega$) kodiert 
+\vspace{1mm}
+```{r, echo  = F}
+# Datenbeispielgeneration
+n           = 8                                                                  # Anzahl Zeilen
+m           = 7                                                                  # Anzahl Spalten
+D           = as.data.frame(matrix(runif(n*m, min=1, max=10), nrow = n))         # Daten
+rownames(D) = paste("Proband:in", as.character(1:n))                             # Zeilenbezeichner  
+colnames(D) = paste(as.character(2*(0:(m-1))), "ms")                             # Spaltenbezeichner
+knitr::kable(D, "pipe", align = "c", digits = 2)                                 # Datenbeispielvisualisierung
+``` 
+
+# Physiologische Daten
+Neurophysiologische Daten | EEG
+\vspace{5mm}
+
+```{r, echo = FALSE, out.width = "70%", fig.align = "center"}
+knitr::include_graphics("3-Abbildungen/pfm-3-eeg.pdf")
+```
+
+# Physiologische Daten
+Neurophysiologische Daten | EEG
+
+```{r, echo = FALSE, out.width = "80%", fig.align = "center"}
+knitr::include_graphics("3-Abbildungen/pfm-3-eeg-aufnahme.pdf")
+```
+
+
+# Physiologische Daten
+Neurophysiologische Daten | EEG
+
+```{r, echo = FALSE, out.width = "80%", fig.align = "center"}
+knitr::include_graphics("3-Abbildungen/pfm-3-eeg-biologie.pdf")
+```
+
+
+# Physiologische Daten
+Neurophysiologische Daten | EEG
+
+\small
+Beispieldatensatz
+
+\footnotesize
+\vspace{1mm}
+$1$ Proband:in, $n = 8$ Elektroden, $m = 7$ Messzeitpunkte (2 ms), mögliche Werte in $\mathbb{R}$ ($\mu V$) kodiert 
+\vspace{1mm}
+```{r, echo  = F}
+# Datenbeispielgeneration
+n           = 8                                                                 # Anzahl Zeilen
+m           = 7                                                                 # Anzahl Spalten
+D           = as.data.frame(matrix(runif(n*m, min=-2, max=10), nrow = n))       # Daten
+rownames(D) = paste("Elektrode", as.character(1:n))                             # Zeilenbezeichner  
+colnames(D) = paste(as.character(2*(0:(m-1))), "ms")                            # Spaltenbezeichner
+knitr::kable(D, "pipe", align = "c", digits = 2)     
+``` 
+
+# Physiologische Daten
+Neurophysiologische Daten | fMRT
+\vspace{5mm}
+
+```{r, echo = FALSE, out.width = "70%", fig.align = "center"}
+knitr::include_graphics("3-Abbildungen/pfm-3-fmrt.pdf")
+```
+
+# Physiologische Daten
+Neurophysiologische Daten | fMRT
+\vspace{1mm}
+
+```{r, echo = FALSE, out.width = "80%", fig.align = "center"}
+knitr::include_graphics("3-Abbildungen/pfm-3-fmrt-aufnahme.pdf")
+```
+
+# Physiologische Daten
+Neurophysiologische Daten | fMRT
+\vspace{3mm}
+
+```{r, echo = FALSE, out.width = "90%", fig.align = "center"}
+knitr::include_graphics("3-Abbildungen/pfm-3-fmrt-biophysik.pdf")
+```
+
+
+# Physiologische Daten
+Neurophysiologische Daten | fMRT
+
+\small
+Beispieldatensatz
+
+\footnotesize
+\vspace{1mm}
+$1$ Proband:in, $n = 8$ Voxel, $m = 7$ Messzeitpunkte (1.5 s), mögliche Werte in $\mathbb{N}_{255}$ kodiert 
+\vspace{1mm}
+```{r, echo  = F}
+# Datenbeispielgeneration
+n           = 8                                                                  # Anzahl Zeilen
+m           = 7                                                                  # Anzahl Spalten
+D           = as.data.frame(matrix(round(runif(n*m, min=0, max=255)), nrow = n)) # Daten
+rownames(D) = paste("Voxel", as.character(1:n))                                  # Zeilenbezeichner  
+colnames(D) = paste(as.character(1.5*(0:(m-1))), "s")                            # Spaltenbezeichner
+knitr::kable(D, "pipe", align = "c")     
+```
+
+# Physiologische Daten
+\large
+Psychologische Datentypen
+\vspace{-2mm}
+```{r, echo = FALSE, out.width = "90%", fig.align = "center"}
+knitr::include_graphics("3-Abbildungen/003-psychologische-daten.pdf")
+```
+
+# 
+\Large
+\setstretch{2.5}
+\vfill
+Psychologische Daten
+
+Verhaltensdaten
+
+Physiologische Daten
+
+**Datenbereitstellung**
+
+Selbstkontrollfragen
+\vfill
+
+
+# Datenbereitstellung
+\center
+\vspace{2mm}
+```{r, echo = FALSE, out.width = "60%", fig.align = "center"}
+knitr::include_graphics("3-Abbildungen/pfm-3-zpid.png")
+```
+[\textcolor{darkblue}{ZPID Leibniz-Institut für Psychologie}](https://leibniz-psychology.org/)
+
+
+
+# Datenbereitstellung
+\small
+\vspace{3mm}
+\setstretch{1.2}
+Zugriffsklasse 0 ("Open Data")
+
+* Weder Zugriff noch Nutzung der Daten sind in irgendeiner Form restringiert 
+* Eventuelles Tracking der Nachnutzung
+* Lizenzen aus den
+  [\textcolor{darkblue}{Creative-Commons-}](https://creativecommons.org/)
+  oder
+  [\textcolor{darkblue}{Open-Data-Commons-Familien}](https://opendatacommons.org/)
+
+Zugriffsklasse 1 ("Open Data/Conditional Access")
+
+* Zugriff und Nachnutzung an Bedingungen der Datenbereitstellenden geknüpft 
+* Verstöße können von den Datenbereitstellenden geahndet werden  
+* Beispiel: [\textcolor{darkblue}{Scientific Use License}](https://www.psycharchives.org/en/item/7466aa16-69bd-49ea-baef-7f828f5b223f) 
+
+Zugriffsklasse 2 ("Restricted  Access")
+
+* Zugriff und Nachnutzung an individualisierte Bedingungen geknüpft 
+* Verstöße können von den Datenbereitstellenden geahndet werden  
+* Individualisierte Datennutzungsverträge 
+
+Zugriffsklasse 3 ("Secure Data")
+
+* Zugriff und Nachnutzung nur unter datenschutzrechtlichen Restriktionen
+* Art und Umfang der Nachnutzung festgelegt und überwacht 
+
+\flushright
+\footnotesize
+@gollwitzer2021
+
+# Datenbereitstellung
+Scientific Use "So offen wie möglich, so restriktiv wie nötig"
+
+\small
+Nachnutzung von Daten ausschließlich im Kontext wissenschaftlicher Analysen und Diskussionen
+
+Definition über Nutzungszweck
+
+(a) Reanalyse eines Datensatzes zur wissenschaftlichen Qualitätssicherung
+(b) Veranschaulichung bzw. Übung im Kontext universitärer Lehrveranstaltungen
+(c) Überprüfung der Anwendbarkeit eines datenanalytischen Verfahrens
+(d) Nutzung zur Beantwortung neuer Forschungsfragestellungen
+
+Voraussetzungen
+
+* Spezifikation der wissenschaftlichen Absichten
+* Keine eigene Weiterverbreitung, keine Reidentifikation von Versuchspersonen
+* Ablauf der Lizenzvereinbarung mit Erfüllung des wissenschaftlichen Zwecks
+
+
+\flushright
+\footnotesize
+@kreutzer2021, @gollwitzer2021
+
+# 
+\Large
+\setstretch{2.5}
+\vfill
+Psychologische Daten
+
+Verhaltensdaten
+
+Physiologische Daten
+
+Datenbereitstellung
+
+**Selbstkontrollfragen**
+\vfill
+
+
+# Selbstkontrollfragen
+\footnotesize
+\setstretch{1.7}
+
+1. Nennen und erläutern Sie die sechs dargestellten Arbeitsphasen des
+   empirischen Forschungsprozesses.
+1. Erläutern Sie die Begriffe der Rohdaten und der Primärdaten.
+1. Erläutern Sie den Begriff der FAIR-Bereitstellung von Forschungsdaten.
+1. Erläutern Sie die Begriffe der latenten und der observierbaren Variablen.
+1. Erläutern Sie die Begriffe der Operationalisierung und der Inferenz.
+1. Erläutern Sie das Modell eines dreidimensionalen Datenaufnahmeraums.
+1. Nennen Sie drei Arten von Verhaltensbeobachtungsdaten.
+1. Nennen Sie drei Arten von Verhaltensbefragungsdaten.
+1. Nennen Sie drei Arten von vegetativphysiologischen Daten.
+1. Nennen Sie drei Arten von neurophysiologischen Daten.
+1. Erläutern Sie das Aufnahmeprinzip und die biologischen Grundlagen des EEG.
+1. Erläutern Sie das Aufnahmeprinzip der fMRT und ihre biologischen Grundlagen.
+1. Erläutern Sie die Zugriffsklassen 0 bis 3 zur Bereitstellung von
+   psychologischen Forschungsdaten.
+1. Erläutern Sie die Scientific-Use-Lizenz nach @kreutzer2021.
+
+# Referenzen
+\footnotesize

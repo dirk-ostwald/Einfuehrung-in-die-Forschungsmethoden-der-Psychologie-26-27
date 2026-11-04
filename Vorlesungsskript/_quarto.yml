@@ -25,7 +25,7 @@ book:
     - index.qmd
     - _src/_part_0/001-Naturwissenschaft.qmd
     - _src/_part_0/002-Psychologische-Forschung.qmd
-    # - _src/_part_0/003-Psychologische-Daten.qmd
+    - _src/_part_0/003-Psychologische-Daten.qmd
     # - _src/_part_0/004-Messen-und-Quantifizieren.qmd
     # - _src/_part_0/005-Studiendesign.qmd
     # - _src/_part_0/006-Klinische-Forschung.qmd
