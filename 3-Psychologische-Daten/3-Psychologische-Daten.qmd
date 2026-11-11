@@ -70,13 +70,16 @@ Selbstkontrollfragen
 \vfill
 
 # Psychologische Daten
+\vfill
 Arbeitsphasen des empirischen Forschungsprozesses
-```{r, echo = FALSE, out.width = "60%", fig.align = "center"}
+\vspace{2mm}
+```{r, echo = FALSE, out.width = "70%", fig.align = "center"}
 knitr::include_graphics("3-Abbildungen/003-forschungsprozess-phasen.pdf")
 ```
+\vspace{2mm}
 \flushright
 Daten sind im Forschungsprozess zentral - Theorie aber auch!
-
+\vfill
 
 # Psychologische Daten
 \vspace{1mm}
@@ -117,9 +120,9 @@ Primärdaten sollten FAIR bereitgestellt werden
 
 # Psychologische Daten
 \large
-Psychologische Daten = observierbare Variablen
+Psychologische Daten = Observierbare Variablen
 \vspace{1mm}
-```{r, echo = FALSE, out.width = "85%", fig.align = "center"}
+```{r, echo = FALSE, out.width = "80%", fig.align = "center"}
 knitr::include_graphics("3-Abbildungen/003-latente-variablen.pdf")
 ```
 
@@ -354,16 +357,24 @@ knitr::include_graphics("3-Abbildungen/pfm-3-eeg.pdf")
 Neurophysiologische Daten | EEG
 
 ```{r, echo = FALSE, out.width = "80%", fig.align = "center"}
-knitr::include_graphics("3-Abbildungen/pfm-3-eeg-aufnahme.pdf")
+knitr::include_graphics("3-Abbildungen/pfm-3-eeg-aufnahme-ohne-quelle.pdf")
 ```
+
+\flushright
+\footnotesize
+Nach @luck2014
 
 
 # Physiologische Daten
 Neurophysiologische Daten | EEG
 
 ```{r, echo = FALSE, out.width = "80%", fig.align = "center"}
-knitr::include_graphics("3-Abbildungen/pfm-3-eeg-biologie.pdf")
+knitr::include_graphics("3-Abbildungen/pfm-3-eeg-biologie-ohne-quelle.pdf")
 ```
+
+\flushright
+\footnotesize
+Nach @luck2014
 
 
 # Physiologische Daten
@@ -399,16 +410,24 @@ Neurophysiologische Daten | fMRT
 \vspace{1mm}
 
 ```{r, echo = FALSE, out.width = "80%", fig.align = "center"}
-knitr::include_graphics("3-Abbildungen/pfm-3-fmrt-aufnahme.pdf")
+knitr::include_graphics("3-Abbildungen/pfm-3-fmrt-aufnahme-ohne-quelle.pdf")
 ```
+
+\flushright
+\footnotesize
+Nach @huettel2014
 
 # Physiologische Daten
 Neurophysiologische Daten | fMRT
 \vspace{3mm}
 
 ```{r, echo = FALSE, out.width = "90%", fig.align = "center"}
-knitr::include_graphics("3-Abbildungen/pfm-3-fmrt-biophysik.pdf")
+knitr::include_graphics("3-Abbildungen/pfm-3-fmrt-biophysik-ohne-quelle.pdf")
 ```
+
+\flushright
+\footnotesize
+Nach @tsvetanov2020
 
 
 # Physiologische Daten
