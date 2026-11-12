@@ -13,6 +13,7 @@ Philosophie-Neurowissenschaften-Künstliche Intelligenz.
 | 1 · Naturwissenschaft | [PDF](1-Naturwissenschaft/1-Naturwissenschaft.pdf) |
 | 2 · Psychologische Forschung | [PDF](2-Psychologische-Forschung/2-Psychologische-Forschung.pdf) |
 | 3 · Psychologische Daten | [PDF](3-Psychologische-Daten/3-Psychologische-Daten.pdf) |
+| 4 · Messen und Quantifizieren | [PDF](4-Messen-und-Quantifizieren/4-Messen-und-Quantifizieren.pdf) |
 | Vorlesungsskript | [PDF](Vorlesungsskript/_book/Einfuehrung-in-die-Forschungsmethoden-der-Psychologie-2027.pdf) |
 
 Weitere Informationen zur Veranstaltung stehen auf der
