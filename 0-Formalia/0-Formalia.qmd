@@ -121,7 +121,7 @@ Datum        & Einheit                       & Thema				                        
 06.11.2026   & Wissenschaft                  & (3) Psychologische Daten                     \\
 13.11.2026   & Wissenschaftsphilosophie      & (4) Realismus                                \\
 20.11.2026   & Wissenschaftsphilosophie      & (5) Operationalismus                         \\
-27.11.2026   & Wissenschaftsphilosophie      & (6) Repräsentalismus                         \\
+27.11.2026   & Wissenschaftsphilosophie      & (6) Repräsentationalismus                         \\
 04.12.2026   & Wissenschaftsphilosophie      & (7) Validität                                \\
 11.12.2026   & Wissenschaftsphilosophie      & (8) Modellbasierter Realismus                \\
 18.12.2026   & Studiendesign                 & (9) Grundlagen des Studiendesigns            \\
