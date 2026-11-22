@@ -1,0 +1,10 @@
+{
+  "portraits": [
+    {
+      "id": "campbell",
+      "prompt": "Use case: style-transfer. Create ONE standalone watercolor portrait for a university textbook gallery. Image 1 is the identity/source reference. Image 2 is ONLY the watercolor medium, framing and palette reference, do not copy its person's identity. Preserve recognizable facial structure, age, hair, and historical clothing of image 1. Standardized series: 1024 x 1536 portrait canvas, head and shoulders centered, full head with comfortable whitespace, shoulder bust ending around 85% height. Delicate realistic watercolor, fine facial detail, translucent warm ochre and muted slate-blue washes, soft feathered lower edges, subtle white watercolor paper background. Match reference image 2's head scale and contrast. Remove original background, props, instruments, other people. NO letters, captions, border, watermark or text. Subject: Norman Robert Campbell, the elderly clean-shaven physicist with receding white hair shown in image 1. Retain the three-quarter orientation and facial proportions.",
+      "generated": "C:\\Users\\dirko\\.codex\\generated_images\\01a1e4b8-37e3-7872-84ac-a21549a566d2\\exec-a24a4ad2-0456-43be-aebd-1ea73e34d958.png"
+    }
+  ],
+  "tool": "built-in image_gen"
+}

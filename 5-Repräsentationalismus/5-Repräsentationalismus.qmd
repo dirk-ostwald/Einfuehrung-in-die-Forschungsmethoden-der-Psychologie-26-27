@@ -369,7 +369,6 @@ Relationen
 \footnotesize
 
 * Binäre Relationen sind Beziehungen zwischen zwei Dingen.
-  Allgemein können Relationen auch mehr Argumente haben.
 * Im qualitativen Relationssystem betrachtet die RT qualitative Relationen von empirischen Eigenschaften.
 * Beispiele für qualitative Relationen sind "nicht wahrnehmbar kürzer als" oder "wärmer als".
 * Qualitative Relationen werden oft mit $\succ$, $\prec$ oder $\diamond$ bezeichnet.

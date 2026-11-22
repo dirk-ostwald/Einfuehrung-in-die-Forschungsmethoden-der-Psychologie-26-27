@@ -246,7 +246,7 @@ knitr::include_graphics("4-Abbildungen/pfm-4-inventing-temperature.png")
 :::: {.column width="40%"}
 \center
 \vspace{3mm}
-![](4-Abbildungen/pfm-4-kelvin.jpg){width=80%}
+![](4-Abbildungen/pfm-4-portrait-kelvin-aquarell.png){width=80%}
 
 \footnotesize
 William Thomson aka Lord Kelvin
@@ -301,7 +301,7 @@ Grundannahmen
 
 \vspace{5mm}
 \center
-![](4-Abbildungen/pfm-4-aristoteles.jpg){width=70%}
+![](4-Abbildungen/pfm-4-portrait-aristoteles-aquarell.png){width=70%}
 
 \footnotesize
 
@@ -337,7 +337,7 @@ Harmonie und eine Zahl."
 \vspace{8mm}
 
 \center
-![](4-Abbildungen/pfm-4-galileo.jpg){width=70%}
+![](4-Abbildungen/pfm-4-portrait-galileo-aquarell.png){width=70%}
 \footnotesize
 
 Galilei (1623) 
@@ -493,7 +493,7 @@ $\Rightarrow$ Operationalismus als positivistische Messtheorie
 \vspace{6mm}
 
 \center
-![](4-Abbildungen/pfm-4-bridgman.jpg){width=80%}
+![](4-Abbildungen/pfm-4-portrait-bridgman-aquarell.png){width=80%}
 
 @bridgman1927 
 
@@ -514,7 +514,7 @@ nothing more than the set of operations by which length is determined."
 \vspace{1cm}
 
 \center
-![](4-Abbildungen/pfm-4-carnap.jpg){width=80%}
+![](4-Abbildungen/pfm-4-portrait-carnap-aquarell.png){width=80%}
 
 \small
 @carnap1966 
